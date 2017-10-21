@@ -12,6 +12,14 @@
 		08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D490991F9B575D00C79167 /* Main.storyboard */; };
 		08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909C1F9B575D00C79167 /* Assets.xcassets */; };
 		08D490A01F9B575D00C79167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909E1F9B575D00C79167 /* LaunchScreen.storyboard */; };
+		08D490AA1F9B76C600C79167 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490A91F9B76C600C79167 /* UserAPI.swift */; };
+		08D490AC1F9B786500C79167 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490AB1F9B786500C79167 /* APIConfig.swift */; };
+		08D490AE1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */; };
+		08D490B11F9B7C5400C79167 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490B01F9B7C5400C79167 /* UserData.swift */; };
+		08D490B41F9B7CCD00C79167 /* RouteAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490B31F9B7CCD00C79167 /* RouteAPI.swift */; };
+		08D490B61F9B7D7C00C79167 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490B51F9B7D7C00C79167 /* Route.swift */; };
+		08D490BA1F9B7F0900C79167 /* UserAPISuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490B91F9B7F0900C79167 /* UserAPISuccessMock.swift */; };
+		08D490BE1F9B943300C79167 /* RouteAPIPaginatedMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490BD1F9B943300C79167 /* RouteAPIPaginatedMock.swift */; };
 		F6E2E7501D40657B9F270F03 /* Pods_HermitagePersonalGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65786210811CCE4EF625F77 /* Pods_HermitagePersonalGuide.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +31,14 @@
 		08D4909C1F9B575D00C79167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08D4909F1F9B575D00C79167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08D490A11F9B575D00C79167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D490A91F9B76C600C79167 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		08D490AB1F9B786500C79167 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
+		08D490B01F9B7C5400C79167 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		08D490B31F9B7CCD00C79167 /* RouteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteAPI.swift; sourceTree = "<group>"; };
+		08D490B51F9B7D7C00C79167 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		08D490B91F9B7F0900C79167 /* UserAPISuccessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPISuccessMock.swift; sourceTree = "<group>"; };
+		08D490BD1F9B943300C79167 /* RouteAPIPaginatedMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteAPIPaginatedMock.swift; sourceTree = "<group>"; };
 		8A314D87A23D95BD487CEC92 /* Pods-HermitagePersonalGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermitagePersonalGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide.release.xcconfig"; sourceTree = "<group>"; };
 		B65786210811CCE4EF625F77 /* Pods_HermitagePersonalGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HermitagePersonalGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7D9BC124EEEF9AD01C525C /* Pods-HermitagePersonalGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermitagePersonalGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,8 +83,48 @@
 				08D4909C1F9B575D00C79167 /* Assets.xcassets */,
 				08D4909E1F9B575D00C79167 /* LaunchScreen.storyboard */,
 				08D490A11F9B575D00C79167 /* Info.plist */,
+				08D490B21F9B7CB500C79167 /* Route */,
+				08D490AF1F9B7C3100C79167 /* User */,
+				08D490AB1F9B786500C79167 /* APIConfig.swift */,
+				08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */,
 			);
 			path = HermitagePersonalGuide;
+			sourceTree = "<group>";
+		};
+		08D490AF1F9B7C3100C79167 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				08D490A91F9B76C600C79167 /* UserAPI.swift */,
+				08D490B01F9B7C5400C79167 /* UserData.swift */,
+				08D490BB1F9B7F4000C79167 /* Mocks */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		08D490B21F9B7CB500C79167 /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				08D490BC1F9B825900C79167 /* Mock */,
+				08D490B31F9B7CCD00C79167 /* RouteAPI.swift */,
+				08D490B51F9B7D7C00C79167 /* Route.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		08D490BB1F9B7F4000C79167 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				08D490B91F9B7F0900C79167 /* UserAPISuccessMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		08D490BC1F9B825900C79167 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				08D490BD1F9B943300C79167 /* RouteAPIPaginatedMock.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 		3DE60AA583850EE371E89407 /* Pods */ = {
@@ -221,8 +277,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D490B11F9B7C5400C79167 /* UserData.swift in Sources */,
 				08D490981F9B575D00C79167 /* ViewController.swift in Sources */,
+				08D490BE1F9B943300C79167 /* RouteAPIPaginatedMock.swift in Sources */,
 				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
+				08D490AE1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift in Sources */,
+				08D490BA1F9B7F0900C79167 /* UserAPISuccessMock.swift in Sources */,
+				08D490B41F9B7CCD00C79167 /* RouteAPI.swift in Sources */,
+				08D490B61F9B7D7C00C79167 /* Route.swift in Sources */,
+				08D490AC1F9B786500C79167 /* APIConfig.swift in Sources */,
+				08D490AA1F9B76C600C79167 /* UserAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
