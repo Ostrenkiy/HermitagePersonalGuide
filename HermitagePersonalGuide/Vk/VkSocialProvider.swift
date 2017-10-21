@@ -29,7 +29,7 @@ class VKSocialSDKProvider: NSObject, SocialSDKProvider {
         sdkInstance.uiDelegate = self
     }
     
-    func getAccessInfo(success successHandler: @escaping (String, String?) -> Void, error errorHandler: @escaping (SocialSDKError) -> Void) {
+    func getAccessInfo(success successHandler: @escaping (String, Int) -> Void, error errorHandler: @escaping (SocialSDKError) -> Void) {
         self.successHandler = successHandler
         self.errorHandler = errorHandler
         
@@ -39,7 +39,7 @@ class VKSocialSDKProvider: NSObject, SocialSDKProvider {
         VKSdk.authorize(["friends", "audio", "video", "status", "groups", "email"])
     }
     
-    fileprivate var successHandler: ((String, String?) -> Void)?
+    fileprivate var successHandler: ((String, Int) -> Void)?
     fileprivate var errorHandler: ((SocialSDKError) -> Void)?
 }
 
@@ -59,7 +59,7 @@ extension VKSocialSDKProvider : VKSdkDelegate {
             return
         }
         if let token = result.token.accessToken {
-            successHandler?(token, result.token.email)
+            successHandler?(token, result.user.id.intValue)
             return
         }
     }

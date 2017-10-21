@@ -27,9 +27,19 @@ class VkViewController: UIViewController{
         vkProvider?.getAccessInfo(success: successHandler, error: errorHandler)
     }
     
-    private func successHandler(token: String, email:String?){
+    private func successHandler(token: String, id: Int){
         print(token)
-        print(email ?? "empty email")
+        print("\(id)")
+        UserAPI().create(user: id, token: token, completion: {
+            [weak self]
+            error, userData in
+            guard let userData = userData else {
+                print("pizdec \(error?.localizedDescription)")
+                return
+            }
+            
+            
+        })
     }
     
     private func errorHandler(error:SocialSDKError){
