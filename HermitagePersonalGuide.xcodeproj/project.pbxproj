@@ -21,6 +21,7 @@
 		08D490BA1F9B7F0900C79167 /* UserAPISuccessMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490B91F9B7F0900C79167 /* UserAPISuccessMock.swift */; };
 		08D490BE1F9B943300C79167 /* RouteAPIPaginatedMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490BD1F9B943300C79167 /* RouteAPIPaginatedMock.swift */; };
 		08D490C01F9B9BBA00C79167 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D490BF1F9B9BBA00C79167 /* Map.storyboard */; };
+		08D490C71F9BA75800C79167 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490C61F9BA75800C79167 /* Picture.swift */; };
 		55D55FD51F9B68E600FF12FC /* VkLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D55FD41F9B68E600FF12FC /* VkLogin.storyboard */; };
 		55D55FDA1F9B708900FF12FC /* VkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D55FD91F9B708900FF12FC /* VkViewController.swift */; };
 		55D55FDC1F9B774E00FF12FC /* VkSocialProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D55FDB1F9B774E00FF12FC /* VkSocialProvider.swift */; };
@@ -44,6 +45,7 @@
 		08D490B91F9B7F0900C79167 /* UserAPISuccessMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPISuccessMock.swift; sourceTree = "<group>"; };
 		08D490BD1F9B943300C79167 /* RouteAPIPaginatedMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteAPIPaginatedMock.swift; sourceTree = "<group>"; };
 		08D490BF1F9B9BBA00C79167 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
+		08D490C61F9BA75800C79167 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		55D55FD41F9B68E600FF12FC /* VkLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VkLogin.storyboard; sourceTree = "<group>"; };
 		55D55FD91F9B708900FF12FC /* VkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkViewController.swift; sourceTree = "<group>"; };
 		55D55FDB1F9B774E00FF12FC /* VkSocialProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSocialProvider.swift; sourceTree = "<group>"; };
@@ -147,10 +149,19 @@
 		08D490C31F9B9BD100C79167 /* Model & API */ = {
 			isa = PBXGroup;
 			children = (
+				08D490C51F9BA74500C79167 /* Picture */,
 				08D490B21F9B7CB500C79167 /* Route */,
 				08D490AF1F9B7C3100C79167 /* User */,
 			);
 			path = "Model & API";
+			sourceTree = "<group>";
+		};
+		08D490C51F9BA74500C79167 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				08D490C61F9BA75800C79167 /* Picture.swift */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 		3DE60AA583850EE371E89407 /* Pods */ = {
@@ -321,6 +332,7 @@
 				08D490981F9B575D00C79167 /* ViewController.swift in Sources */,
 				55D55FDA1F9B708900FF12FC /* VkViewController.swift in Sources */,
 				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
+				08D490C71F9BA75800C79167 /* Picture.swift in Sources */,
 				55D55FDC1F9B774E00FF12FC /* VkSocialProvider.swift in Sources */,
 				08D490BE1F9B943300C79167 /* RouteAPIPaginatedMock.swift in Sources */,
 				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
