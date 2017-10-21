@@ -17,6 +17,10 @@ class VkViewController: UIViewController{
         vkProvider = VKSocialSDKProvider.instance
         vkProvider?.delegate = self
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
