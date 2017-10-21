@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Nuke
 
 class ExhibitInfoViewController: UIViewController {
     var exhibit: Exhibit?
@@ -35,7 +36,7 @@ extension ExhibitInfoViewController: UITableViewDataSource {
         switch indexPath.row {
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: "pictureCell", for: indexPath) as! PictureTableViewCell
-            //Вот тут должна быть подкачка
+            Nuke.loadImage(with: URL(string: (exhibit?.pictureURL)!)!, into: cell.exhibitImageView)
             return cell
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "nameCell", for: indexPath)

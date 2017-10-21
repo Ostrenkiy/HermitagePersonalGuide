@@ -29,7 +29,7 @@
         <!--Exhibit List View Controller-->
         <scene sceneID="RaB-Za-ud2">
             <objects>
-                <viewController id="Y6a-bw-q3y" customClass="ExhibitListViewController" customModule="testProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y6a-bw-q3y" customClass="ExhibitListViewController" customModule="HermitagePersonalGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xwx-br-RCg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,7 +38,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exhibitCell" rowHeight="115" id="bE1-0P-tRY" customClass="ExhibitTableViewCell" customModule="testProject" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exhibitCell" rowHeight="115" id="bE1-0P-tRY" customClass="ExhibitTableViewCell" customModule="HermitagePersonalGuide" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="115"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bE1-0P-tRY" id="nu7-Xr-Yyo">
@@ -107,7 +107,7 @@
         <!--Exhibit Info View Controller-->
         <scene sceneID="6Bf-Re-8Y4">
             <objects>
-                <viewController id="jZ1-o7-rDu" customClass="ExhibitInfoViewController" customModule="testProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jZ1-o7-rDu" customClass="ExhibitInfoViewController" customModule="HermitagePersonalGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZyW-GL-uZ8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,7 +116,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="pictureCell" rowHeight="205" id="zG0-Zu-UVp" customClass="PictureTableViewCell" customModule="testProject" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="pictureCell" rowHeight="205" id="zG0-Zu-UVp" customClass="PictureTableViewCell" customModule="HermitagePersonalGuide" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="205"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zG0-Zu-UVp" id="0ja-16-DRY">
@@ -138,6 +138,9 @@
                                                 <constraint firstItem="4G3-ko-dv8" firstAttribute="top" secondItem="0ja-16-DRY" secondAttribute="topMargin" id="xbe-xW-gIb"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="exhibitImageView" destination="4G3-ko-dv8" id="a8Y-ak-9mD"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="nameCell" textLabel="eL4-hT-KuS" style="IBUITableViewCellStyleDefault" id="36p-N2-cZb">
                                         <rect key="frame" x="0.0" y="233" width="375" height="44"/>

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Nuke
 
 class ExhibitListViewController: UIViewController {
     var exhibits:[Exhibit] = []
@@ -48,8 +49,12 @@ extension ExhibitListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "exhibitCell", for: indexPath) as! ExhibitTableViewCell
+        
+        Nuke.loadImage(with: URL(string: exhibits[indexPath.row].pictureURL)!, into: cell.exhibitImageView)
+        
+        exhibits[indexPath.row].image = cell.exhibitImageView.image
+        
         cell.exhibitCellName.text = exhibits[indexPath.row].name
-        //Тут должна быть подгрузка картинки
         return cell
     }
 }
@@ -58,4 +63,5 @@ struct Exhibit {
     var pictureURL = ""
     var name = ""
     var text = ""
+    var image:UIImage?
 }
