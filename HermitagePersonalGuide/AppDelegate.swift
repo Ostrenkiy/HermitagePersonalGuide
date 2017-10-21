@@ -9,6 +9,8 @@
 import UIKit
 import VK_ios_sdk
 
+let appBackgroundColor = UIColor(red: 59.0/255, green: 59.0/255, blue: 68.0/255, alpha: 1)
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

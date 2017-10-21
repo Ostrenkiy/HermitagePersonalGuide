@@ -8,6 +8,7 @@
 
 import UIKit
 import Pulsator
+import Nuke
 
 class MapViewController: UIViewController {
     
@@ -16,7 +17,7 @@ class MapViewController: UIViewController {
     let pointDiameter: CGFloat = 15
     
     @IBOutlet weak var mapImageScrollView: ImageScrollView!
-    
+
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var interestsLabel: UILabel!
@@ -65,16 +66,22 @@ class MapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//        print(halls)
-        
+        view.backgroundColor = appBackgroundColor
+        Nuke.loadImage(with: URL(string: user.avatarURL)!, into: avatarImageView)
+        avatarImageView.contentMode = .scaleAspectFill
+        avatarImageView.setRoundedBounds(width: 1)
+        nameLabel.text = user.name
+        interestsLabel.text = "Интересы: \(user.interests)"
         mapImageScrollView.display(image: #imageLiteral(resourceName: "2_floor_cut"))
         let tapG = UITapGestureRecognizer(target: self, action: #selector(MapViewController.didTap(touch:)))
         mapImageScrollView.addGestureRecognizer(tapG)
-        mapImageScrollView.minimumZoomScale = 5.0
-        mapImageScrollView.zoomScale = 10.0
         // Do any additional setup after loading the view.
     }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
