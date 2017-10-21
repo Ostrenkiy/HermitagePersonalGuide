@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class RouteAPI {
     let name = "route"
-    @discardableResult func retrieve(user userId: Int, location: Int, wantOut: Bool, completion: @escaping ((Error?, Route?)->Void)) -> Request {
+    @discardableResult func retrieve(user userId: Int, location: Int, wantOut: Bool, completion: @escaping ((Error?, Route?)->Void)) -> Request? {
         
         let params: Parameters = [
             "id": userId,

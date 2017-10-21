@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class UserAPI {
     let name = "user"
-    @discardableResult func create(user userId: Int, token: String, completion: @escaping ((Error?, UserData?)->Void)) -> Request {
+    @discardableResult func create(user userId: Int, token: String, completion: @escaping ((Error?, UserData?)->Void)) -> Request? {
         let params: Parameters = [
             "id": userId,
             "token": token
