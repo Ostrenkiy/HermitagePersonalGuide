@@ -8,6 +8,5 @@ target 'HermitagePersonalGuide' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod "VK-ios-sdk"
-  pod 'Nuke'
   pod 'Presentr'
 end
