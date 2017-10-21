@@ -13,7 +13,8 @@ protocol VKSocialSDKProviderDelegate: class {
     func presentAuthController(_ controller: UIViewController)
 }
 
-class VKSocialSDKProvider: NSObject, SocialSDKProvider {
+class VKSocialSDKProvider: NSObject {
+    
     weak var delegate: VKSocialSDKProviderDelegate?
     
     public static let instance = VKSocialSDKProvider()
@@ -73,11 +74,6 @@ extension VKSocialSDKProvider: VKSdkUIDelegate {
     func vkSdkShouldPresent(_ controller: UIViewController) {
         delegate?.presentAuthController(controller)
     }
-}
-
-protocol SocialSDKProvider {
-    var name: String { get }
-    func getAccessInfo(success successHandler: @escaping (String, String?) -> Void, error errorHandler: @escaping (SocialSDKError) -> Void)
 }
 
 enum SocialSDKError: Error {
