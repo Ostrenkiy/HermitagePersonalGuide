@@ -47,7 +47,8 @@ class VkViewController: UIViewController{
     
     private func errorHandler(error:SocialSDKError){
         print(error)
-    }    
+    }
+    
     
     // MARK: - Navigation
 
@@ -61,6 +62,8 @@ class VkViewController: UIViewController{
             dvc.user = sender as! UserData
         }
     }
+    
+
 }
 
 extension VkViewController:VKSocialSDKProviderDelegate{
