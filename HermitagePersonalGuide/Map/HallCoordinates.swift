@@ -30,10 +30,10 @@ class HallCoordinates {
     }
     
     private static func getJSON() -> JSON {
-        return JSON(coordinatesJSONString)
+        return JSON(parseJSON: coordinatesJSONString)
     }
     
-    static func getCoordinates() -> [Hall] {
+    static func getHalls() -> [Hall] {
         var results = [Hall]()
         let json = getJSON()
         results += json["floor1"].arrayValue.map({Hall(json: $0, floor: 1)})

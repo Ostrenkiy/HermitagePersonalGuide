@@ -12,8 +12,12 @@ class MapViewController: UIViewController {
 
     var user: UserData!
     
+    var halls = HallCoordinates.getHalls()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(halls)
         
         // Do any additional setup after loading the view.
     }
