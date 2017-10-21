@@ -10,18 +10,6 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-struct UserData {
-    var id: Int
-    var avatarURL: String
-    var interests: String
-    
-    init(json: JSON) {
-        id = json["id"].intValue
-        avatarURL = json["avatarURL"].stringValue
-        interests = json["interests"].stringValue
-    }
-}
-
 class UserAPI {
     let name = "user"
     @discardableResult func create(user userId: Int, token: String, completion: @escaping ((Error?, UserData?)->Void)) -> Request {
@@ -42,5 +30,4 @@ class UserAPI {
             }
         })
     }
-
 }
