@@ -12,6 +12,9 @@
 		08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D490991F9B575D00C79167 /* Main.storyboard */; };
 		08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909C1F9B575D00C79167 /* Assets.xcassets */; };
 		08D490A01F9B575D00C79167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909E1F9B575D00C79167 /* LaunchScreen.storyboard */; };
+		08D490AA1F9B76C600C79167 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490A91F9B76C600C79167 /* UserAPI.swift */; };
+		08D490AC1F9B786500C79167 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490AB1F9B786500C79167 /* APIConfig.swift */; };
+		08D490AE1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */; };
 		F6E2E7501D40657B9F270F03 /* Pods_HermitagePersonalGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65786210811CCE4EF625F77 /* Pods_HermitagePersonalGuide.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 		08D4909C1F9B575D00C79167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08D4909F1F9B575D00C79167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08D490A11F9B575D00C79167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D490A91F9B76C600C79167 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		08D490AB1F9B786500C79167 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
 		8A314D87A23D95BD487CEC92 /* Pods-HermitagePersonalGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermitagePersonalGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide.release.xcconfig"; sourceTree = "<group>"; };
 		B65786210811CCE4EF625F77 /* Pods_HermitagePersonalGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HermitagePersonalGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7D9BC124EEEF9AD01C525C /* Pods-HermitagePersonalGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermitagePersonalGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +73,9 @@
 				08D4909C1F9B575D00C79167 /* Assets.xcassets */,
 				08D4909E1F9B575D00C79167 /* LaunchScreen.storyboard */,
 				08D490A11F9B575D00C79167 /* Info.plist */,
+				08D490A91F9B76C600C79167 /* UserAPI.swift */,
+				08D490AB1F9B786500C79167 /* APIConfig.swift */,
+				08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */,
 			);
 			path = HermitagePersonalGuide;
 			sourceTree = "<group>";
@@ -223,6 +232,9 @@
 			files = (
 				08D490981F9B575D00C79167 /* ViewController.swift in Sources */,
 				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
+				08D490AE1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift in Sources */,
+				08D490AC1F9B786500C79167 /* APIConfig.swift in Sources */,
+				08D490AA1F9B76C600C79167 /* UserAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
