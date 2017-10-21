@@ -9,6 +9,7 @@
 import UIKit
 
 class ExhibitInfoViewController: UIViewController {
+    var exhibit: Exhibit?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,13 +34,16 @@ extension ExhibitInfoViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.row {
         case 0:
-            let cell = tableView.dequeueReusableCell(withIdentifier: "pictureCell", for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: "pictureCell", for: indexPath) as! PictureTableViewCell
+            //Вот тут должна быть подкачка
             return cell
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "nameCell", for: indexPath)
+            cell.textLabel?.text = self.exhibit?.name
             return cell
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "descriptionCell", for: indexPath)
+            cell.textLabel?.text = self.exhibit?.text
             return cell
         }
     }

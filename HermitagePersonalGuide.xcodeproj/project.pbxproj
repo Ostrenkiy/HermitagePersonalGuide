@@ -13,10 +13,11 @@
 		08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909C1F9B575D00C79167 /* Assets.xcassets */; };
 		08D490A01F9B575D00C79167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909E1F9B575D00C79167 /* LaunchScreen.storyboard */; };
 		5508699A1F9B930200A4EB8A /* iBeaconSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869991F9B930200A4EB8A /* iBeaconSerivce.swift */; };
-		5508699E1F9BA45300A4EB8A /* ExhibitInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5508699D1F9BA45300A4EB8A /* ExhibitInfoViewController.swift */; };
-		550869A01F9BA46C00A4EB8A /* ExhibitInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5508699F1F9BA46C00A4EB8A /* ExhibitInfo.storyboard */; };
-		550869A21F9BA64D00A4EB8A /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869A11F9BA64D00A4EB8A /* PictureTableViewCell.swift */; };
-		550869A61F9BAECC00A4EB8A /* ExhibitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869A51F9BAECC00A4EB8A /* ExhibitListViewController.swift */; };
+		550869E11F9BCBA700A4EB8A /* ExhibitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869DC1F9BCBA600A4EB8A /* ExhibitListViewController.swift */; };
+		550869E21F9BCBA700A4EB8A /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869DD1F9BCBA600A4EB8A /* PictureTableViewCell.swift */; };
+		550869E31F9BCBA700A4EB8A /* ExhibitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869DE1F9BCBA600A4EB8A /* ExhibitTableViewCell.swift */; };
+		550869E41F9BCBA700A4EB8A /* ExhibitInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550869DF1F9BCBA600A4EB8A /* ExhibitInfo.storyboard */; };
+		550869E51F9BCBA700A4EB8A /* ExhibitInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869E01F9BCBA600A4EB8A /* ExhibitInfoViewController.swift */; };
 		55D55FD51F9B68E600FF12FC /* VkLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D55FD41F9B68E600FF12FC /* VkLogin.storyboard */; };
 		55D55FDA1F9B708900FF12FC /* VkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D55FD91F9B708900FF12FC /* VkViewController.swift */; };
 		55D55FDC1F9B774E00FF12FC /* VkSocialProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D55FDB1F9B774E00FF12FC /* VkSocialProvider.swift */; };
@@ -32,10 +33,11 @@
 		08D4909F1F9B575D00C79167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08D490A11F9B575D00C79167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		550869991F9B930200A4EB8A /* iBeaconSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconSerivce.swift; sourceTree = "<group>"; };
-		5508699D1F9BA45300A4EB8A /* ExhibitInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitInfoViewController.swift; sourceTree = "<group>"; };
-		5508699F1F9BA46C00A4EB8A /* ExhibitInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ExhibitInfo.storyboard; sourceTree = "<group>"; };
-		550869A11F9BA64D00A4EB8A /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
-		550869A51F9BAECC00A4EB8A /* ExhibitListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitListViewController.swift; sourceTree = "<group>"; };
+		550869DC1F9BCBA600A4EB8A /* ExhibitListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitListViewController.swift; sourceTree = "<group>"; };
+		550869DD1F9BCBA600A4EB8A /* PictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		550869DE1F9BCBA600A4EB8A /* ExhibitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitTableViewCell.swift; sourceTree = "<group>"; };
+		550869DF1F9BCBA600A4EB8A /* ExhibitInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExhibitInfo.storyboard; sourceTree = "<group>"; };
+		550869E01F9BCBA600A4EB8A /* ExhibitInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitInfoViewController.swift; sourceTree = "<group>"; };
 		55D55FD41F9B68E600FF12FC /* VkLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VkLogin.storyboard; sourceTree = "<group>"; };
 		55D55FD91F9B708900FF12FC /* VkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkViewController.swift; sourceTree = "<group>"; };
 		55D55FDB1F9B774E00FF12FC /* VkSocialProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSocialProvider.swift; sourceTree = "<group>"; };
@@ -102,10 +104,11 @@
 		5508699C1F9BA42C00A4EB8A /* ExhibitInfo */ = {
 			isa = PBXGroup;
 			children = (
-				5508699D1F9BA45300A4EB8A /* ExhibitInfoViewController.swift */,
-				5508699F1F9BA46C00A4EB8A /* ExhibitInfo.storyboard */,
-				550869A11F9BA64D00A4EB8A /* PictureTableViewCell.swift */,
-				550869A51F9BAECC00A4EB8A /* ExhibitListViewController.swift */,
+				550869DF1F9BCBA600A4EB8A /* ExhibitInfo.storyboard */,
+				550869E01F9BCBA600A4EB8A /* ExhibitInfoViewController.swift */,
+				550869DC1F9BCBA600A4EB8A /* ExhibitListViewController.swift */,
+				550869DE1F9BCBA600A4EB8A /* ExhibitTableViewCell.swift */,
+				550869DD1F9BCBA600A4EB8A /* PictureTableViewCell.swift */,
 			);
 			path = ExhibitInfo;
 			sourceTree = "<group>";
@@ -200,7 +203,7 @@
 			files = (
 				08D490A01F9B575D00C79167 /* LaunchScreen.storyboard in Resources */,
 				08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */,
-				550869A01F9BA46C00A4EB8A /* ExhibitInfo.storyboard in Resources */,
+				550869E41F9BCBA700A4EB8A /* ExhibitInfo.storyboard in Resources */,
 				08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */,
 				55D55FD51F9B68E600FF12FC /* VkLogin.storyboard in Resources */,
 			);
@@ -273,11 +276,12 @@
 			files = (
 				5508699A1F9B930200A4EB8A /* iBeaconSerivce.swift in Sources */,
 				08D490981F9B575D00C79167 /* ViewController.swift in Sources */,
-				550869A61F9BAECC00A4EB8A /* ExhibitListViewController.swift in Sources */,
+				550869E11F9BCBA700A4EB8A /* ExhibitListViewController.swift in Sources */,
 				55D55FDA1F9B708900FF12FC /* VkViewController.swift in Sources */,
+				550869E21F9BCBA700A4EB8A /* PictureTableViewCell.swift in Sources */,
+				550869E31F9BCBA700A4EB8A /* ExhibitTableViewCell.swift in Sources */,
 				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
-				550869A21F9BA64D00A4EB8A /* PictureTableViewCell.swift in Sources */,
-				5508699E1F9BA45300A4EB8A /* ExhibitInfoViewController.swift in Sources */,
+				550869E51F9BCBA700A4EB8A /* ExhibitInfoViewController.swift in Sources */,
 				55D55FDC1F9B774E00FF12FC /* VkSocialProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

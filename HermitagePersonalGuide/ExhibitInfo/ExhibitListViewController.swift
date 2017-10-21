@@ -13,11 +13,16 @@ class ExhibitListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        var ex1 = Exhibit()
+        ex1.name = "bkdjslfjlkfdjsdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjf"
+        ex1.text = "dslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjf"
+        exhibits.append(ex1)
     }
     
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
+        if let vc = segue.destination as? ExhibitInfoViewController, let ex = sender as? Exhibit {
+            vc.exhibit = ex
+        }
      }
  
 }
@@ -32,7 +37,7 @@ extension ExhibitListViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
+        self.performSegue(withIdentifier: "showExhibitInfo", sender: exhibits[indexPath.row])
     }
 }
 
@@ -42,13 +47,15 @@ extension ExhibitListViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "exhibitCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "exhibitCell", for: indexPath) as! ExhibitTableViewCell
+        cell.exhibitCellName.text = exhibits[indexPath.row].name
+        //Тут должна быть подгрузка картинки
         return cell
     }
 }
 
 struct Exhibit {
-    let pictureURL = ""
-    let name = ""
-    let text = ""
+    var pictureURL = ""
+    var name = ""
+    var text = ""
 }
