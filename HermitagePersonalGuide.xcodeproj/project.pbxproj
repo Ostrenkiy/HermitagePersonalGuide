@@ -13,6 +13,12 @@
 		08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D490991F9B575D00C79167 /* Main.storyboard */; };
 		08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909C1F9B575D00C79167 /* Assets.xcassets */; };
 		08D490A01F9B575D00C79167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909E1F9B575D00C79167 /* LaunchScreen.storyboard */; };
+		5508699A1F9B930200A4EB8A /* iBeaconSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869991F9B930200A4EB8A /* iBeaconSerivce.swift */; };
+		550869E11F9BCBA700A4EB8A /* ExhibitListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869DC1F9BCBA600A4EB8A /* ExhibitListViewController.swift */; };
+		550869E21F9BCBA700A4EB8A /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869DD1F9BCBA600A4EB8A /* PictureTableViewCell.swift */; };
+		550869E31F9BCBA700A4EB8A /* ExhibitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869DE1F9BCBA600A4EB8A /* ExhibitTableViewCell.swift */; };
+		550869E41F9BCBA700A4EB8A /* ExhibitInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550869DF1F9BCBA600A4EB8A /* ExhibitInfo.storyboard */; };
+		550869E51F9BCBA700A4EB8A /* ExhibitInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550869E01F9BCBA600A4EB8A /* ExhibitInfoViewController.swift */; };
 		08D490AA1F9B76C600C79167 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490A91F9B76C600C79167 /* UserAPI.swift */; };
 		08D490AC1F9B786500C79167 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490AB1F9B786500C79167 /* APIConfig.swift */; };
 		08D490AE1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */; };
@@ -38,6 +44,12 @@
 		08D4909C1F9B575D00C79167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08D4909F1F9B575D00C79167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08D490A11F9B575D00C79167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550869991F9B930200A4EB8A /* iBeaconSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBeaconSerivce.swift; sourceTree = "<group>"; };
+		550869DC1F9BCBA600A4EB8A /* ExhibitListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitListViewController.swift; sourceTree = "<group>"; };
+		550869DD1F9BCBA600A4EB8A /* PictureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		550869DE1F9BCBA600A4EB8A /* ExhibitTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitTableViewCell.swift; sourceTree = "<group>"; };
+		550869DF1F9BCBA600A4EB8A /* ExhibitInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExhibitInfo.storyboard; sourceTree = "<group>"; };
+		550869E01F9BCBA600A4EB8A /* ExhibitInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExhibitInfoViewController.swift; sourceTree = "<group>"; };
 		08D490A91F9B76C600C79167 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
 		08D490AB1F9B786500C79167 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
 		08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire-SwiftyJSON.swift"; sourceTree = "<group>"; };
@@ -89,6 +101,8 @@
 		08D490941F9B575D00C79167 /* HermitagePersonalGuide */ = {
 			isa = PBXGroup;
 			children = (
+				5508699C1F9BA42C00A4EB8A /* ExhibitInfo */,
+				55D55FDD1F9B8B7400FF12FC /* iBeacon */,
 				55D55FD61F9B6A6000FF12FC /* Vk */,
 				08D490951F9B575D00C79167 /* AppDelegate.swift */,
 				08D490971F9B575D00C79167 /* ViewController.swift */,
@@ -175,6 +189,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5508699C1F9BA42C00A4EB8A /* ExhibitInfo */ = {
+			isa = PBXGroup;
+			children = (
+				550869DF1F9BCBA600A4EB8A /* ExhibitInfo.storyboard */,
+				550869E01F9BCBA600A4EB8A /* ExhibitInfoViewController.swift */,
+				550869DC1F9BCBA600A4EB8A /* ExhibitListViewController.swift */,
+				550869DE1F9BCBA600A4EB8A /* ExhibitTableViewCell.swift */,
+				550869DD1F9BCBA600A4EB8A /* PictureTableViewCell.swift */,
+			);
+			path = ExhibitInfo;
+			sourceTree = "<group>";
+		};
 		55D55FD61F9B6A6000FF12FC /* Vk */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +211,15 @@
 			path = Vk;
 			sourceTree = "<group>";
 		};
+		55D55FDD1F9B8B7400FF12FC /* iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				550869991F9B930200A4EB8A /* iBeaconSerivce.swift */,
+			);
+			path = iBeacon;
+			sourceTree = "<group>";
+		};
+		DB94B2882D3542408002134F /* Frameworks */ = {
 		98EF2B96A4F5676A5D0C380B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +293,7 @@
 			files = (
 				08D490A01F9B575D00C79167 /* LaunchScreen.storyboard in Resources */,
 				08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */,
+				550869E41F9BCBA700A4EB8A /* ExhibitInfo.storyboard in Resources */,
 				08D490C01F9B9BBA00C79167 /* Map.storyboard in Resources */,
 				08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */,
 				55D55FD51F9B68E600FF12FC /* VkLogin.storyboard in Resources */,
@@ -290,6 +326,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
 				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework",
@@ -297,6 +334,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VK_ios_sdk.framework",
@@ -331,9 +369,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5508699A1F9B930200A4EB8A /* iBeaconSerivce.swift in Sources */,
 				08D490B11F9B7C5400C79167 /* UserData.swift in Sources */,
 				08D490981F9B575D00C79167 /* ViewController.swift in Sources */,
+				550869E11F9BCBA700A4EB8A /* ExhibitListViewController.swift in Sources */,
 				55D55FDA1F9B708900FF12FC /* VkViewController.swift in Sources */,
+				550869E21F9BCBA700A4EB8A /* PictureTableViewCell.swift in Sources */,
+				550869E31F9BCBA700A4EB8A /* ExhibitTableViewCell.swift in Sources */,
+				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
+				550869E51F9BCBA700A4EB8A /* ExhibitInfoViewController.swift in Sources */,
 				08D490C71F9BA75800C79167 /* Picture.swift in Sources */,
 				55D55FDC1F9B774E00FF12FC /* VkSocialProvider.swift in Sources */,
 				08D490BE1F9B943300C79167 /* RouteAPIPaginatedMock.swift in Sources */,
@@ -487,7 +531,7 @@
 				INFOPLIST_FILE = HermitagePersonalGuide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.ostrenkiy.HermitagePersonalGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ostrenkiy.HermitagePersonalGuide2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,7 +548,7 @@
 				INFOPLIST_FILE = HermitagePersonalGuide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = me.ostrenkiy.HermitagePersonalGuide;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ostrenkiy.HermitagePersonalGuide2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
