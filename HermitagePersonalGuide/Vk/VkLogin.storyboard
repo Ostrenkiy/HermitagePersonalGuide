@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bHI-bA-gNE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jZE-WY-y5Y">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -35,7 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iyd-Jr-nmc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="536" y="453"/>
+            <point key="canvasLocation" x="782" y="553"/>
         </scene>
         <!--Map-->
         <scene sceneID="S8K-8s-Nxj">
@@ -43,7 +43,62 @@
                 <viewControllerPlaceholder storyboardName="Map" id="nCD-ou-JaX" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HjZ-Ff-r2u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1207" y="488"/>
+            <point key="canvasLocation" x="1429" y="492"/>
+        </scene>
+        <!--Vk View Controller-->
+        <scene sceneID="ptG-Ix-Rff">
+            <objects>
+                <viewController id="jZE-WY-y5Y" customClass="VkViewController" customModule="HermitagePersonalGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pJc-LA-vB6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back" translatesAutoresizingMaskIntoConstraints="NO" id="62H-KW-Ywv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHa-DJ-ff7">
+                                <rect key="frame" x="154" y="575" width="67" height="72"/>
+                                <state key="normal" image="vk2"/>
+                                <connections>
+                                    <action selector="authorize:" destination="jZE-WY-y5Y" eventType="touchUpInside" id="W1B-1l-CUQ"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="HermLogo" translatesAutoresizingMaskIntoConstraints="NO" id="3PL-w7-cHp">
+                                <rect key="frame" x="0.0" y="20" width="375" height="296"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="LjG-gP-GJr"/>
+                                    <constraint firstAttribute="height" constant="296" id="WdX-hS-Zo7"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="62H-KW-Ywv" firstAttribute="top" secondItem="pJc-LA-vB6" secondAttribute="top" id="A1B-2y-yIJ"/>
+                            <constraint firstItem="62H-KW-Ywv" firstAttribute="leading" secondItem="WUb-E8-gVy" secondAttribute="leading" id="GvO-I1-zVP"/>
+                            <constraint firstItem="3PL-w7-cHp" firstAttribute="centerX" secondItem="pJc-LA-vB6" secondAttribute="centerX" constant="-16" id="LkX-Y7-9qx"/>
+                            <constraint firstItem="WUb-E8-gVy" firstAttribute="trailing" secondItem="62H-KW-Ywv" secondAttribute="trailing" id="MgR-QL-mv5"/>
+                            <constraint firstItem="WUb-E8-gVy" firstAttribute="bottom" secondItem="62H-KW-Ywv" secondAttribute="bottom" id="Uup-uY-Ny3"/>
+                            <constraint firstItem="bHa-DJ-ff7" firstAttribute="centerX" secondItem="pJc-LA-vB6" secondAttribute="centerX" id="W1d-YP-Lya"/>
+                            <constraint firstItem="WUb-E8-gVy" firstAttribute="bottom" secondItem="bHa-DJ-ff7" secondAttribute="bottom" constant="20" id="qWl-gW-7Ub"/>
+                            <constraint firstItem="3PL-w7-cHp" firstAttribute="top" secondItem="WUb-E8-gVy" secondAttribute="top" id="wYv-aX-h7P"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WUb-E8-gVy"/>
+                    </view>
+                    <connections>
+                        <segue destination="nCD-ou-JaX" kind="show" identifier="showMap" id="RtU-u2-xgk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtW-o9-ALy" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62" y="64"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="HermLogo" width="344" height="375"/>
+        <image name="back" width="344" height="656"/>
+        <image name="vk2" width="67" height="72"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="RtU-u2-xgk"/>
+    </inferredMetricsTieBreakers>
 </document>
