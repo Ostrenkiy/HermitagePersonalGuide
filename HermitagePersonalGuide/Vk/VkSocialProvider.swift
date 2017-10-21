@@ -59,6 +59,7 @@ extension VKSocialSDKProvider : VKSdkDelegate {
             return
         }
         if let token = result.token.accessToken {
+            
             successHandler?(token, result.token.email)
             return
         }
