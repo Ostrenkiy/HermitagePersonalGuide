@@ -9,12 +9,17 @@
 import UIKit
 
 class ExhibitListViewController: UIViewController {
-    var exhibits:[Exhibit] = [Exhibit(pictureURL:"", name:"", text:"")]
+    var exhibits:[Exhibit] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
+    
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+ 
 }
 
 extension ExhibitListViewController: UITableViewDelegate {
@@ -25,6 +30,10 @@ extension ExhibitListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableViewAutomaticDimension
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: <#T##String#>, sender: <#T##Any?#>)
+    }
 }
 
 extension ExhibitListViewController: UITableViewDataSource {
@@ -33,8 +42,8 @@ extension ExhibitListViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "pictureCell", for: indexPath)
-            return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "exhibitCell", for: indexPath)
+        return cell
     }
 }
 
