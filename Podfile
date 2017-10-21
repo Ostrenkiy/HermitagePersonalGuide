@@ -9,4 +9,6 @@ target 'HermitagePersonalGuide' do
   pod 'SwiftyJSON'
   pod "VK-ios-sdk"
   pod 'Presentr'
+  pod "Pulsator"
+  pod 'FLKAutoLayout'
 end

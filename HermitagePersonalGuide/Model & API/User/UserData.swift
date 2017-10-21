@@ -13,11 +13,13 @@ struct UserData {
     var id: Int
     var avatarURL: String
     var interests: String
+    var name: String
     
     init(json: JSON) {
         id = json["id"].intValue
         avatarURL = json["avatarURL"].stringValue
         interests = json["interests"].stringValue
+        name = json["name"].stringValue
     }
 }
 

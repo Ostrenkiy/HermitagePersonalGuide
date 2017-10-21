@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0878E1D11F9BD8220019A83A /* ImageToImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0878E1D01F9BD8220019A83A /* ImageToImageView.swift */; };
 		089705521F9BAFA800E8F8C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089705511F9BAFA800E8F8C2 /* MapViewController.swift */; };
 		089705541F9BBA7400E8F8C2 /* HallCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089705531F9BBA7400E8F8C2 /* HallCoordinates.swift */; };
 		089705561F9BBA9F00E8F8C2 /* HallCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 089705551F9BBA9F00E8F8C2 /* HallCoordinates.plist */; };
+		089705581F9BC5AA00E8F8C2 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089705571F9BC5AA00E8F8C2 /* ImageScrollView.swift */; };
 		08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490951F9B575D00C79167 /* AppDelegate.swift */; };
 		08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D490991F9B575D00C79167 /* Main.storyboard */; };
 		08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909C1F9B575D00C79167 /* Assets.xcassets */; };
@@ -31,9 +33,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0878E1D01F9BD8220019A83A /* ImageToImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToImageView.swift; sourceTree = "<group>"; };
 		089705511F9BAFA800E8F8C2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		089705531F9BBA7400E8F8C2 /* HallCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallCoordinates.swift; sourceTree = "<group>"; };
 		089705551F9BBA9F00E8F8C2 /* HallCoordinates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HallCoordinates.plist; sourceTree = "<group>"; };
+		089705571F9BC5AA00E8F8C2 /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 		08D490921F9B575D00C79167 /* HermitagePersonalGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermitagePersonalGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D490951F9B575D00C79167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08D4909A1F9B575D00C79167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 		08D490891F9B575D00C79167 = {
 			isa = PBXGroup;
 			children = (
+				0878E1D01F9BD8220019A83A /* ImageToImageView.swift */,
 				08D490941F9B575D00C79167 /* HermitagePersonalGuide */,
 				08D490931F9B575D00C79167 /* Products */,
 				98EF2B96A4F5676A5D0C380B /* Pods */,
@@ -101,6 +106,7 @@
 				08D490AB1F9B786500C79167 /* APIConfig.swift */,
 				08D490AD1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift */,
 				08D490C11F9B9BBF00C79167 /* Map */,
+				089705571F9BC5AA00E8F8C2 /* ImageScrollView.swift */,
 			);
 			path = HermitagePersonalGuide;
 			sourceTree = "<group>";
@@ -294,14 +300,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FLKAutoLayout/FLKAutoLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulsator/Pulsator.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLKAutoLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulsator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VK_ios_sdk.framework",
 			);
@@ -340,6 +350,7 @@
 				08D490C71F9BA75800C79167 /* Picture.swift in Sources */,
 				55D55FDC1F9B774E00FF12FC /* VkSocialProvider.swift in Sources */,
 				08D490BE1F9B943300C79167 /* RouteAPIPaginatedMock.swift in Sources */,
+				0878E1D11F9BD8220019A83A /* ImageToImageView.swift in Sources */,
 				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
 				08D490AE1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift in Sources */,
 				08D490BA1F9B7F0900C79167 /* UserAPISuccessMock.swift in Sources */,
@@ -347,6 +358,7 @@
 				08D490B61F9B7D7C00C79167 /* Route.swift in Sources */,
 				089705541F9BBA7400E8F8C2 /* HallCoordinates.swift in Sources */,
 				08D490AC1F9B786500C79167 /* APIConfig.swift in Sources */,
+				089705581F9BC5AA00E8F8C2 /* ImageScrollView.swift in Sources */,
 				08D490AA1F9B76C600C79167 /* UserAPI.swift in Sources */,
 				089705521F9BAFA800E8F8C2 /* MapViewController.swift in Sources */,
 			);

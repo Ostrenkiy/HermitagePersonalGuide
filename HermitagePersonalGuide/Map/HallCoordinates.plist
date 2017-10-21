@@ -491,6 +491,20 @@
   ],
   &quot;floor2&quot;: [
     {
+      &quot;id&quot;: 195,
+      &quot;location&quot;: {
+        &quot;x&quot;: 484,
+        &quot;y&quot;: 290
+      }
+    },
+    {
+      &quot;id&quot;: 196,
+      &quot;location&quot;: {
+        &quot;x&quot;: 501,
+        &quot;y&quot;: 392
+      }
+    },
+    {
       &quot;id&quot;: 185,
       &quot;location&quot;: {
         &quot;x&quot;: 23,
