@@ -25,7 +25,7 @@
 		55D55FD51F9B68E600FF12FC /* VkLogin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D55FD41F9B68E600FF12FC /* VkLogin.storyboard */; };
 		55D55FDA1F9B708900FF12FC /* VkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D55FD91F9B708900FF12FC /* VkViewController.swift */; };
 		55D55FDC1F9B774E00FF12FC /* VkSocialProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D55FDB1F9B774E00FF12FC /* VkSocialProvider.swift */; };
-		F6E2E7501D40657B9F270F03 /* Pods_HermitagePersonalGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B65786210811CCE4EF625F77 /* Pods_HermitagePersonalGuide.framework */; };
+		D358226187A787A1224BA075 /* Pods_HermitagePersonalGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDC69281639C8D6B983678C /* Pods_HermitagePersonalGuide.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,12 +46,12 @@
 		08D490BD1F9B943300C79167 /* RouteAPIPaginatedMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteAPIPaginatedMock.swift; sourceTree = "<group>"; };
 		08D490BF1F9B9BBA00C79167 /* Map.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		08D490C61F9BA75800C79167 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		13CDD90E2978CC9CE18C4179 /* Pods-HermitagePersonalGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermitagePersonalGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide.debug.xcconfig"; sourceTree = "<group>"; };
 		55D55FD41F9B68E600FF12FC /* VkLogin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VkLogin.storyboard; sourceTree = "<group>"; };
 		55D55FD91F9B708900FF12FC /* VkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkViewController.swift; sourceTree = "<group>"; };
 		55D55FDB1F9B774E00FF12FC /* VkSocialProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSocialProvider.swift; sourceTree = "<group>"; };
-		8A314D87A23D95BD487CEC92 /* Pods-HermitagePersonalGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermitagePersonalGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide.release.xcconfig"; sourceTree = "<group>"; };
-		B65786210811CCE4EF625F77 /* Pods_HermitagePersonalGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HermitagePersonalGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF7D9BC124EEEF9AD01C525C /* Pods-HermitagePersonalGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermitagePersonalGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide.debug.xcconfig"; sourceTree = "<group>"; };
+		8CDC69281639C8D6B983678C /* Pods_HermitagePersonalGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HermitagePersonalGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFBEC450519926327A74FC3 /* Pods-HermitagePersonalGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HermitagePersonalGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E2E7501D40657B9F270F03 /* Pods_HermitagePersonalGuide.framework in Frameworks */,
+				D358226187A787A1224BA075 /* Pods_HermitagePersonalGuide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +71,8 @@
 			children = (
 				08D490941F9B575D00C79167 /* HermitagePersonalGuide */,
 				08D490931F9B575D00C79167 /* Products */,
-				3DE60AA583850EE371E89407 /* Pods */,
-				DB94B2882D3542408002134F /* Frameworks */,
+				98EF2B96A4F5676A5D0C380B /* Pods */,
+				15D5AAC783C492C57EF89411 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,13 +164,12 @@
 			path = Picture;
 			sourceTree = "<group>";
 		};
-		3DE60AA583850EE371E89407 /* Pods */ = {
+		15D5AAC783C492C57EF89411 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF7D9BC124EEEF9AD01C525C /* Pods-HermitagePersonalGuide.debug.xcconfig */,
-				8A314D87A23D95BD487CEC92 /* Pods-HermitagePersonalGuide.release.xcconfig */,
+				8CDC69281639C8D6B983678C /* Pods_HermitagePersonalGuide.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		55D55FD61F9B6A6000FF12FC /* Vk */ = {
@@ -183,12 +182,13 @@
 			path = Vk;
 			sourceTree = "<group>";
 		};
-		DB94B2882D3542408002134F /* Frameworks */ = {
+		98EF2B96A4F5676A5D0C380B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B65786210811CCE4EF625F77 /* Pods_HermitagePersonalGuide.framework */,
+				13CDD90E2978CC9CE18C4179 /* Pods-HermitagePersonalGuide.debug.xcconfig */,
+				9DFBEC450519926327A74FC3 /* Pods-HermitagePersonalGuide.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,12 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08D490A41F9B575D00C79167 /* Build configuration list for PBXNativeTarget "HermitagePersonalGuide" */;
 			buildPhases = (
-				1A308E399EE46125F164344D /* [CP] Check Pods Manifest.lock */,
+				9E80BD379F6E129ADFE38DB8 /* [CP] Check Pods Manifest.lock */,
 				08D4908E1F9B575D00C79167 /* Sources */,
 				08D4908F1F9B575D00C79167 /* Frameworks */,
 				08D490901F9B575D00C79167 /* Resources */,
-				85B79CBE8A8239E7B04427C6 /* [CP] Embed Pods Frameworks */,
-				F9C3B9D57F8BA7362C304541 /* [CP] Copy Pods Resources */,
+				6239A43C2A2E000B45E695F1 /* [CP] Embed Pods Frameworks */,
+				5B13525DAE603855E3B9F9AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,25 +264,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A308E399EE46125F164344D /* [CP] Check Pods Manifest.lock */ = {
+		5B13525DAE603855E3B9F9AB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HermitagePersonalGuide-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		85B79CBE8A8239E7B04427C6 /* [CP] Embed Pods Frameworks */ = {
+		6239A43C2A2E000B45E695F1 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,19 +303,22 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F9C3B9D57F8BA7362C304541 /* [CP] Copy Pods Resources */ = {
+		9E80BD379F6E129ADFE38DB8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HermitagePersonalGuide-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HermitagePersonalGuide/Pods-HermitagePersonalGuide-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -331,7 +331,6 @@
 				08D490B11F9B7C5400C79167 /* UserData.swift in Sources */,
 				08D490981F9B575D00C79167 /* ViewController.swift in Sources */,
 				55D55FDA1F9B708900FF12FC /* VkViewController.swift in Sources */,
-				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
 				08D490C71F9BA75800C79167 /* Picture.swift in Sources */,
 				55D55FDC1F9B774E00FF12FC /* VkSocialProvider.swift in Sources */,
 				08D490BE1F9B943300C79167 /* RouteAPIPaginatedMock.swift in Sources */,
@@ -476,7 +475,7 @@
 		};
 		08D490A51F9B575D00C79167 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF7D9BC124EEEF9AD01C525C /* Pods-HermitagePersonalGuide.debug.xcconfig */;
+			baseConfigurationReference = 13CDD90E2978CC9CE18C4179 /* Pods-HermitagePersonalGuide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -493,7 +492,7 @@
 		};
 		08D490A61F9B575D00C79167 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A314D87A23D95BD487CEC92 /* Pods-HermitagePersonalGuide.release.xcconfig */;
+			baseConfigurationReference = 9DFBEC450519926327A74FC3 /* Pods-HermitagePersonalGuide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
