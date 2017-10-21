@@ -9,5 +9,5 @@ target 'HermitagePersonalGuide' do
   pod 'SwiftyJSON'
   pod "VK-ios-sdk"
   pod 'Nuke'
-  
+  pod 'Presentr'
 end
