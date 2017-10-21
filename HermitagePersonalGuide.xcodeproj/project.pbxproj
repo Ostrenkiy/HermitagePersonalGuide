@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		089705521F9BAFA800E8F8C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089705511F9BAFA800E8F8C2 /* MapViewController.swift */; };
+		089705541F9BBA7400E8F8C2 /* HallCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089705531F9BBA7400E8F8C2 /* HallCoordinates.swift */; };
+		089705561F9BBA9F00E8F8C2 /* HallCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 089705551F9BBA9F00E8F8C2 /* HallCoordinates.plist */; };
 		08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490951F9B575D00C79167 /* AppDelegate.swift */; };
 		08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D490991F9B575D00C79167 /* Main.storyboard */; };
 		08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909C1F9B575D00C79167 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		089705511F9BAFA800E8F8C2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		089705531F9BBA7400E8F8C2 /* HallCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallCoordinates.swift; sourceTree = "<group>"; };
+		089705551F9BBA9F00E8F8C2 /* HallCoordinates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HallCoordinates.plist; sourceTree = "<group>"; };
 		08D490921F9B575D00C79167 /* HermitagePersonalGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermitagePersonalGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D490951F9B575D00C79167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08D4909A1F9B575D00C79167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 			children = (
 				08D490BF1F9B9BBA00C79167 /* Map.storyboard */,
 				089705511F9BAFA800E8F8C2 /* MapViewController.swift */,
+				089705531F9BBA7400E8F8C2 /* HallCoordinates.swift */,
+				089705551F9BBA9F00E8F8C2 /* HallCoordinates.plist */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 				08D490C01F9B9BBA00C79167 /* Map.storyboard in Resources */,
 				08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */,
 				55D55FD51F9B68E600FF12FC /* VkLogin.storyboard in Resources */,
+				089705561F9BBA9F00E8F8C2 /* HallCoordinates.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +345,7 @@
 				08D490BA1F9B7F0900C79167 /* UserAPISuccessMock.swift in Sources */,
 				08D490B41F9B7CCD00C79167 /* RouteAPI.swift in Sources */,
 				08D490B61F9B7D7C00C79167 /* Route.swift in Sources */,
+				089705541F9BBA7400E8F8C2 /* HallCoordinates.swift in Sources */,
 				08D490AC1F9B786500C79167 /* APIConfig.swift in Sources */,
 				08D490AA1F9B76C600C79167 /* UserAPI.swift in Sources */,
 				089705521F9BAFA800E8F8C2 /* MapViewController.swift in Sources */,

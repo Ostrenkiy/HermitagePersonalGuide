@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>coordinates</key>
+	<string>{
+  &quot;floor1&quot;: [
+    {
+      &quot;id&quot;: 14,
+      &quot;location&quot;: {
+        &quot;x&quot;: 23,
+        &quot;y&quot;: 42
+      }
+    },
+    {
+      &quot;id&quot;: 13,
+      &quot;location&quot;: {
+        &quot;x&quot;: 56,
+        &quot;y&quot;: 43
+      }
+    },
+    {
+      &quot;id&quot;: 12,
+      &quot;location&quot;: {
+        &quot;x&quot;: 98,
+        &quot;y&quot;: 42
+      }
+    },
+    {
+      &quot;id&quot;: 11,
+      &quot;location&quot;: {
+        &quot;x&quot;: 135,
+        &quot;y&quot;: 52
+      }
+    },
+    {
+      &quot;id&quot;: 15,
+      &quot;location&quot;: {
+        &quot;x&quot;: 21,
+        &quot;y&quot;: 70
+      }
+    },
+    {
+      &quot;id&quot;: 16,
+      &quot;location&quot;: {
+        &quot;x&quot;: 23,
+        &quot;y&quot;: 98
+      }
+    },
+    {
+      &quot;id&quot;: 17,
+      &quot;location&quot;: {
+        &quot;x&quot;: 58,
+        &quot;y&quot;: 119
+      }
+    },
+    {
+      &quot;id&quot;: 18,
+      &quot;location&quot;: {
+        &quot;x&quot;: 78,
+        &quot;y&quot;: 119
+      }
+    },
+    {
+      &quot;id&quot;: 19,
+      &quot;location&quot;: {
+        &quot;x&quot;: 80,
+        &quot;y&quot;: 134
+      }
+    },
+    {
+      &quot;id&quot;: 20,
+      &quot;location&quot;: {
+        &quot;x&quot;: 79,
+        &quot;y&quot;: 147
+      }
+    },
+    {
+      &quot;id&quot;: 21,
+      &quot;location&quot;: {
+        &quot;x&quot;: 77,
+        &quot;y&quot;: 171
+      }
+    },
+    {
+      &quot;id&quot;: 22,
+      &quot;location&quot;: {
+        &quot;x&quot;: 77,
+        &quot;y&quot;: 195
+      }
+    },
+    {
+      &quot;id&quot;: 23,
+      &quot;location&quot;: {
+        &quot;x&quot;: 100,
+        &quot;y&quot;: 198
+      }
+    },
+    {
+      &quot;id&quot;: 24,
+      &quot;location&quot;: {
+        &quot;x&quot;: 120,
+        &quot;y&quot;: 142
+      }
+    },
+    {
+      &quot;id&quot;: 27,
+      &quot;location&quot;: {
+        &quot;x&quot;: 123,
+        &quot;y&quot;: 286
+      }
+    },
+    {
+      &quot;id&quot;: 33,
+      &quot;location&quot;: {
+        &quot;x&quot;: 118,
+        &quot;y&quot;: 378
+      }
+    },
+    {
+      &quot;id&quot;: 26,
+      &quot;location&quot;: {
+        &quot;x&quot;: 142,
+        &quot;y&quot;: 237
+      }
+    },
+    {
+      &quot;id&quot;: 28,
+      &quot;location&quot;: {
+        &quot;x&quot;: 142,
+        &quot;y&quot;: 319
+      }
+    },
+    {
+      &quot;id&quot;: 29,
+      &quot;location&quot;: {
+        &quot;x&quot;: 144,
+        &quot;y&quot;: 340
+      }
+    },
+    {
+      &quot;id&quot;: 30,
+      &quot;location&quot;: {
+        &quot;x&quot;: 142,
+        &quot;y&quot;: 355
+      }
+    },
+    {
+      &quot;id&quot;: 34,
+      &quot;location&quot;: {
+        &quot;x&quot;: 142,
+        &quot;y&quot;: 377
+      }
+    },
+    {
+      &quot;id&quot;: 32,
+      &quot;location&quot;: {
+        &quot;x&quot;: 141,
+        &quot;y&quot;: 397
+      }
+    },
+    {
+      &quot;id&quot;: 38,
+      &quot;location&quot;: {
+        &quot;x&quot;: 80,
+        &quot;y&quot;: 418
+      }
+    },
+    {
+      &quot;id&quot;: 39,
+      &quot;location&quot;: {
+        &quot;x&quot;: 82,
+        &quot;y&quot;: 433
+      }
+    },
+    {
+      &quot;id&quot;: 47,
+      &quot;location&quot;: {
+        &quot;x&quot;: 18,
+        &quot;y&quot;: 446
+      }
+    },
+    {
+      &quot;id&quot;: 46,
+      &quot;location&quot;: {
+        &quot;x&quot;: 47,
+        &quot;y&quot;: 445
+      }
+    },
+    {
+      &quot;id&quot;: 40,
+      &quot;location&quot;: {
+        &quot;x&quot;: 68,
+        &quot;y&quot;: 449
+      }
+    },
+    {
+      &quot;id&quot;: 48,
+      &quot;location&quot;: {
+        &quot;x&quot;: 17,
+        &quot;y&quot;: 464
+      }
+    },
+    {
+      &quot;id&quot;: 49,
+      &quot;location&quot;: {
+        &quot;x&quot;: 24,
+        &quot;y&quot;: 492
+      }
+    },
+    {
+      &quot;id&quot;: 50,
+      &quot;location&quot;: {
+        &quot;x&quot;: 11,
+        &quot;y&quot;: 520
+      }
+    },
+    {
+      &quot;id&quot;: 51,
+      &quot;location&quot;: {
+        &quot;x&quot;: 33,
+        &quot;y&quot;: 521
+      }
+    },
+    {
+      &quot;id&quot;: 52,
+      &quot;location&quot;: {
+        &quot;x&quot;: 55,
+        &quot;y&quot;: 534
+      }
+    },
+    {
+      &quot;id&quot;: 53,
+      &quot;location&quot;: {
+        &quot;x&quot;: 73,
+        &quot;y&quot;: 533
+      }
+    },
+    {
+      &quot;id&quot;: 54,
+      &quot;location&quot;: {
+        &quot;x&quot;: 90,
+        &quot;y&quot;: 532
+      }
+    },
+    {
+      &quot;id&quot;: 69,
+      &quot;location&quot;: {
+        &quot;x&quot;: 108,
+        &quot;y&quot;: 517
+      }
+    },
+    {
+      &quot;id&quot;: 68,
+      &quot;location&quot;: {
+        &quot;x&quot;: 118,
+        &quot;y&quot;: 495
+      }
+    },
+    {
+      &quot;id&quot;: 55,
+      &quot;location&quot;: {
+        &quot;x&quot;: 134,
+        &quot;y&quot;: 424
+      }
+    },
+    {
+      &quot;id&quot;: 56,
+      &quot;location&quot;: {
+        &quot;x&quot;: 163,
+        &quot;y&quot;: 426
+      }
+    },
+    {
+      &quot;id&quot;: 57,
+      &quot;location&quot;: {
+        &quot;x&quot;: 184,
+        &quot;y&quot;: 454
+      }
+    },
+    {
+      &quot;id&quot;: 58,
+      &quot;location&quot;: {
+        &quot;x&quot;: 196,
+        &quot;y&quot;: 426
+      }
+    },
+    {
+      &quot;id&quot;: 59,
+      &quot;location&quot;: {
+        &quot;x&quot;: 196,
+        &quot;y&quot;: 454
+      }
+    },
+    {
+      &quot;id&quot;: 60,
+      &quot;location&quot;: {
+        &quot;x&quot;: 197,
+        &quot;y&quot;: 478
+      }
+    },
+    {
+      &quot;id&quot;: 61,
+      &quot;location&quot;: {
+        &quot;x&quot;: 190,
+        &quot;y&quot;: 514
+      }
+    },
+    {
+      &quot;id&quot;: 62,
+      &quot;location&quot;: {
+        &quot;x&quot;: 218,
+        &quot;y&quot;: 502
+      }
+    },
+    {
+      &quot;id&quot;: 63,
+      &quot;location&quot;: {
+        &quot;x&quot;: 244,
+        &quot;y&quot;: 507
+      }
+    },
+    {
+      &quot;id&quot;: 91,
+      &quot;location&quot;: {
+        &quot;x&quot;: 499,
+        &quot;y&quot;: 422
+      }
+    },
+    {
+      &quot;id&quot;: 89,
+      &quot;location&quot;: {
+        &quot;x&quot;: 526,
+        &quot;y&quot;: 419
+      }
+    },
+    {
+      &quot;id&quot;: 90,
+      &quot;location&quot;: {
+        &quot;x&quot;: 568,
+        &quot;y&quot;: 410
+      }
+    },
+    {
+      &quot;id&quot;: 100,
+      &quot;location&quot;: {
+        &quot;x&quot;: 604,
+        &quot;y&quot;: 285
+      }
+    },
+    {
+      &quot;id&quot;: 101,
+      &quot;location&quot;: {
+        &quot;x&quot;: 674,
+        &quot;y&quot;: 286
+      }
+    },
+    {
+      &quot;id&quot;: 102,
+      &quot;location&quot;: {
+        &quot;x&quot;: 734,
+        &quot;y&quot;: 285
+      }
+    },
+    {
+      &quot;id&quot;: 131,
+      &quot;location&quot;: {
+        &quot;x&quot;: 857,
+        &quot;y&quot;: 76
+      }
+    },
+    {
+      &quot;id&quot;: 130,
+      &quot;location&quot;: {
+        &quot;x&quot;: 830,
+        &quot;y&quot;: 150
+      }
+    },
+    {
+      &quot;id&quot;: 129,
+      &quot;location&quot;: {
+        &quot;x&quot;: 821,
+        &quot;y&quot;: 217
+      }
+    },
+    {
+      &quot;id&quot;: 127,
+      &quot;location&quot;: {
+        &quot;x&quot;: 889,
+        &quot;y&quot;: 217
+      }
+    },
+    {
+      &quot;id&quot;: 121,
+      &quot;location&quot;: {
+        &quot;x&quot;: 967,
+        &quot;y&quot;: 240
+      }
+    },
+    {
+      &quot;id&quot;: 128,
+      &quot;location&quot;: {
+        &quot;x&quot;: 823,
+        &quot;y&quot;: 250
+      }
+    },
+    {
+      &quot;id&quot;: 117,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1003,
+        &quot;y&quot;: 257
+      }
+    },
+    {
+      &quot;id&quot;: 115,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1025,
+        &quot;y&quot;: 284
+      }
+    },
+    {
+      &quot;id&quot;: 116,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1063,
+        &quot;y&quot;: 255
+      }
+    },
+    {
+      &quot;id&quot;: 114,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1084,
+        &quot;y&quot;: 337
+      }
+    },
+    {
+      &quot;id&quot;: 113,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1095,
+        &quot;y&quot;: 403
+      }
+    },
+    {
+      &quot;id&quot;: 112,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1096,
+        &quot;y&quot;: 440
+      }
+    },
+    {
+      &quot;id&quot;: 111,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1024,
+        &quot;y&quot;: 439
+      }
+    },
+    {
+      &quot;id&quot;: 110,
+      &quot;location&quot;: {
+        &quot;x&quot;: 961,
+        &quot;y&quot;: 434
+      }
+    },
+    {
+      &quot;id&quot;: 109,
+      &quot;location&quot;: {
+        &quot;x&quot;: 899,
+        &quot;y&quot;: 438
+      }
+    },
+    {
+      &quot;id&quot;: 108,
+      &quot;location&quot;: {
+        &quot;x&quot;: 832,
+        &quot;y&quot;: 439
+      }
+    },
+    {
+      &quot;id&quot;: 107,
+      &quot;location&quot;: {
+        &quot;x&quot;: 834,
+        &quot;y&quot;: 353
+      }
+    },
+    {
+      &quot;id&quot;: 106,
+      &quot;location&quot;: {
+        &quot;x&quot;: 829,
+        &quot;y&quot;: 285
+      }
+    }
+  ],
+  &quot;floor2&quot;: [
+    {
+      &quot;id&quot;: 185,
+      &quot;location&quot;: {
+        &quot;x&quot;: 23,
+        &quot;y&quot;: 48
+      }
+    },
+    {
+      &quot;id&quot;: 186,
+      &quot;location&quot;: {
+        &quot;x&quot;: 57,
+        &quot;y&quot;: 47
+      }
+    },
+    {
+      &quot;id&quot;: 187,
+      &quot;location&quot;: {
+        &quot;x&quot;: 86,
+        &quot;y&quot;: 49
+      }
+    },
+    {
+      &quot;id&quot;: 189,
+      &quot;location&quot;: {
+        &quot;x&quot;: 127,
+        &quot;y&quot;: 48
+      }
+    },
+    {
+      &quot;id&quot;: 188,
+      &quot;location&quot;: {
+        &quot;x&quot;: 110,
+        &quot;y&quot;: 76
+      }
+    },
+    {
+      &quot;id&quot;: 184,
+      &quot;location&quot;: {
+        &quot;x&quot;: 24,
+        &quot;y&quot;: 76
+      }
+    },
+    {
+      &quot;id&quot;: 183,
+      &quot;location&quot;: {
+        &quot;x&quot;: 23,
+        &quot;y&quot;: 96
+      }
+    },
+    {
+      &quot;id&quot;: 182,
+      &quot;location&quot;: {
+        &quot;x&quot;: 23,
+        &quot;y&quot;: 110
+      }
+    },
+    {
+      &quot;id&quot;: 181,
+      &quot;location&quot;: {
+        &quot;x&quot;: 32,
+        &quot;y&quot;: 126
+      }
+    },
+    {
+      &quot;id&quot;: 180,
+      &quot;location&quot;: {
+        &quot;x&quot;: 62,
+        &quot;y&quot;: 126
+      }
+    },
+    {
+      &quot;id&quot;: 179,
+      &quot;location&quot;: {
+        &quot;x&quot;: 81,
+        &quot;y&quot;: 126
+      }
+    },
+    {
+      &quot;id&quot;: 155,
+      &quot;location&quot;: {
+        &quot;x&quot;: 144,
+        &quot;y&quot;: 91
+      }
+    },
+    {
+      &quot;id&quot;: 190,
+      &quot;location&quot;: {
+        &quot;x&quot;: 194,
+        &quot;y&quot;: 76
+      }
+    },
+    {
+      &quot;id&quot;: 191,
+      &quot;location&quot;: {
+        &quot;x&quot;: 323,
+        &quot;y&quot;: 76
+      }
+    },
+    {
+      &quot;id&quot;: 192,
+      &quot;location&quot;: {
+        &quot;x&quot;: 451,
+        &quot;y&quot;: 76
+      }
+    },
+    {
+      &quot;id&quot;: 153,
+      &quot;location&quot;: {
+        &quot;x&quot;: 229,
+        &quot;y&quot;: 110
+      }
+    },
+    {
+      &quot;id&quot;: 151,
+      &quot;location&quot;: {
+        &quot;x&quot;: 417,
+        &quot;y&quot;: 112
+      }
+    },
+    {
+      &quot;id&quot;: 152,
+      &quot;location&quot;: {
+        &quot;x&quot;: 321,
+        &quot;y&quot;: 135
+      }
+    },
+    {
+      &quot;id&quot;: 193,
+      &quot;location&quot;: {
+        &quot;x&quot;: 491,
+        &quot;y&quot;: 147
+      }
+    },
+    {
+      &quot;id&quot;: 178,
+      &quot;location&quot;: {
+        &quot;x&quot;: 90,
+        &quot;y&quot;: 150
+      }
+    },
+    {
+      &quot;id&quot;: 177,
+      &quot;location&quot;: {
+        &quot;x&quot;: 80,
+        &quot;y&quot;: 179
+      }
+    },
+    {
+      &quot;id&quot;: 176,
+      &quot;location&quot;: {
+        &quot;x&quot;: 79,
+        &quot;y&quot;: 204
+      }
+    },
+    {
+      &quot;id&quot;: 175,
+      &quot;location&quot;: {
+        &quot;x&quot;: 102,
+        &quot;y&quot;: 205
+      }
+    },
+    {
+      &quot;id&quot;: 174,
+      &quot;location&quot;: {
+        &quot;x&quot;: 101,
+        &quot;y&quot;: 234
+      }
+    },
+    {
+      &quot;id&quot;: 303,
+      &quot;location&quot;: {
+        &quot;x&quot;: 118,
+        &quot;y&quot;: 289
+      }
+    },
+    {
+      &quot;id&quot;: 173,
+      &quot;location&quot;: {
+        &quot;x&quot;: 85,
+        &quot;y&quot;: 288
+      }
+    },
+    {
+      &quot;id&quot;: 172,
+      &quot;location&quot;: {
+        &quot;x&quot;: 90,
+        &quot;y&quot;: 324
+      }
+    },
+    {
+      &quot;id&quot;: 171,
+      &quot;location&quot;: {
+        &quot;x&quot;: 92,
+        &quot;y&quot;: 350
+      }
+    },
+    {
+      &quot;id&quot;: 170,
+      &quot;location&quot;: {
+        &quot;x&quot;: 79,
+        &quot;y&quot;: 375
+      }
+    },
+    {
+      &quot;id&quot;: 169,
+      &quot;location&quot;: {
+        &quot;x&quot;: 87,
+        &quot;y&quot;: 399
+      }
+    },
+    {
+      &quot;id&quot;: 168,
+      &quot;location&quot;: {
+        &quot;x&quot;: 91,
+        &quot;y&quot;: 424
+      }
+    },
+    {
+      &quot;id&quot;: 307,
+      &quot;location&quot;: {
+        &quot;x&quot;: 77,
+        &quot;y&quot;: 465
+      }
+    },
+    {
+      &quot;id&quot;: 306,
+      &quot;location&quot;: {
+        &quot;x&quot;: 48,
+        &quot;y&quot;: 463
+      }
+    },
+    {
+      &quot;id&quot;: 305,
+      &quot;location&quot;: {
+        &quot;x&quot;: 22,
+        &quot;y&quot;: 463
+      }
+    },
+    {
+      &quot;id&quot;: 304,
+      &quot;location&quot;: {
+        &quot;x&quot;: 32,
+        &quot;y&quot;: 508
+      }
+    },
+    {
+      &quot;id&quot;: 289,
+      &quot;location&quot;: {
+        &quot;x&quot;: 107,
+        &quot;y&quot;: 528
+      }
+    },
+    {
+      &quot;id&quot;: 288,
+      &quot;location&quot;: {
+        &quot;x&quot;: 180,
+        &quot;y&quot;: 524
+      }
+    },
+    {
+      &quot;id&quot;: 308,
+      &quot;location&quot;: {
+        &quot;x&quot;: 142,
+        &quot;y&quot;: 507
+      }
+    },
+    {
+      &quot;id&quot;: 156,
+      &quot;location&quot;: {
+        &quot;x&quot;: 136,
+        &quot;y&quot;: 143
+      }
+    },
+    {
+      &quot;id&quot;: 157,
+      &quot;location&quot;: {
+        &quot;x&quot;: 144,
+        &quot;y&quot;: 172
+      }
+    },
+    {
+      &quot;id&quot;: 158,
+      &quot;location&quot;: {
+        &quot;x&quot;: 146,
+        &quot;y&quot;: 198
+      }
+    },
+    {
+      &quot;id&quot;: 159,
+      &quot;location&quot;: {
+        &quot;x&quot;: 145,
+        &quot;y&quot;: 225
+      }
+    },
+    {
+      &quot;id&quot;: 160,
+      &quot;location&quot;: {
+        &quot;x&quot;: 146,
+        &quot;y&quot;: 253
+      }
+    },
+    {
+      &quot;id&quot;: 161,
+      &quot;location&quot;: {
+        &quot;x&quot;: 150,
+        &quot;y&quot;: 288
+      }
+    },
+    {
+      &quot;id&quot;: 162,
+      &quot;location&quot;: {
+        &quot;x&quot;: 145,
+        &quot;y&quot;: 322
+      }
+    },
+    {
+      &quot;id&quot;: 163,
+      &quot;location&quot;: {
+        &quot;x&quot;: 146,
+        &quot;y&quot;: 353
+      }
+    },
+    {
+      &quot;id&quot;: 164,
+      &quot;location&quot;: {
+        &quot;x&quot;: 146,
+        &quot;y&quot;: 373
+      }
+    },
+    {
+      &quot;id&quot;: 165,
+      &quot;location&quot;: {
+        &quot;x&quot;: 147,
+        &quot;y&quot;: 386
+      }
+    },
+    {
+      &quot;id&quot;: 166,
+      &quot;location&quot;: {
+        &quot;x&quot;: 147,
+        &quot;y&quot;: 401
+      }
+    },
+    {
+      &quot;id&quot;: 167,
+      &quot;location&quot;: {
+        &quot;x&quot;: 137,
+        &quot;y&quot;: 428
+      }
+    },
+    {
+      &quot;id&quot;: 302,
+      &quot;location&quot;: {
+        &quot;x&quot;: 153,
+        &quot;y&quot;: 455
+      }
+    },
+    {
+      &quot;id&quot;: 308,
+      &quot;location&quot;: {
+        &quot;x&quot;: 142,
+        &quot;y&quot;: 507
+      }
+    },
+    {
+      &quot;id&quot;: 300,
+      &quot;location&quot;: {
+        &quot;x&quot;: 191,
+        &quot;y&quot;: 431
+      }
+    },
+    {
+      &quot;id&quot;: 299,
+      &quot;location&quot;: {
+        &quot;x&quot;: 194,
+        &quot;y&quot;: 458
+      }
+    },
+    {
+      &quot;id&quot;: 298,
+      &quot;location&quot;: {
+        &quot;x&quot;: 193,
+        &quot;y&quot;: 492
+      }
+    },
+    {
+      &quot;id&quot;: 288,
+      &quot;location&quot;: {
+        &quot;x&quot;: 182,
+        &quot;y&quot;: 523
+      }
+    },
+    {
+      &quot;id&quot;: 297,
+      &quot;location&quot;: {
+        &quot;x&quot;: 222,
+        &quot;y&quot;: 505
+      }
+    },
+    {
+      &quot;id&quot;: 288,
+      &quot;location&quot;: {
+        &quot;x&quot;: 184,
+        &quot;y&quot;: 523
+      }
+    },
+    {
+      &quot;id&quot;: 297,
+      &quot;location&quot;: {
+        &quot;x&quot;: 223,
+        &quot;y&quot;: 504
+      }
+    },
+    {
+      &quot;id&quot;: 296,
+      &quot;location&quot;: {
+        &quot;x&quot;: 262,
+        &quot;y&quot;: 510
+      }
+    },
+    {
+      &quot;id&quot;: 295,
+      &quot;location&quot;: {
+        &quot;x&quot;: 291,
+        &quot;y&quot;: 508
+      }
+    },
+    {
+      &quot;id&quot;: 294,
+      &quot;location&quot;: {
+        &quot;x&quot;: 317,
+        &quot;y&quot;: 511
+      }
+    },
+    {
+      &quot;id&quot;: 293,
+      &quot;location&quot;: {
+        &quot;x&quot;: 348,
+        &quot;y&quot;: 507
+      }
+    },
+    {
+      &quot;id&quot;: 292,
+      &quot;location&quot;: {
+        &quot;x&quot;: 372,
+        &quot;y&quot;: 510
+      }
+    },
+    {
+      &quot;id&quot;: 291,
+      &quot;location&quot;: {
+        &quot;x&quot;: 393,
+        &quot;y&quot;: 512
+      }
+    },
+    {
+      &quot;id&quot;: 290,
+      &quot;location&quot;: {
+        &quot;x&quot;: 419,
+        &quot;y&quot;: 502
+      }
+    },
+    {
+      &quot;id&quot;: 287,
+      &quot;location&quot;: {
+        &quot;x&quot;: 223,
+        &quot;y&quot;: 545
+      }
+    },
+    {
+      &quot;id&quot;: 286,
+      &quot;location&quot;: {
+        &quot;x&quot;: 261,
+        &quot;y&quot;: 544
+      }
+    },
+    {
+      &quot;id&quot;: 285,
+      &quot;location&quot;: {
+        &quot;x&quot;: 319,
+        &quot;y&quot;: 543
+      }
+    },
+    {
+      &quot;id&quot;: 284,
+      &quot;location&quot;: {
+        &quot;x&quot;: 379,
+        &quot;y&quot;: 545
+      }
+    },
+    {
+      &quot;id&quot;: 283,
+      &quot;location&quot;: {
+        &quot;x&quot;: 413,
+        &quot;y&quot;: 544
+      }
+    },
+    {
+      &quot;id&quot;: 282,
+      &quot;location&quot;: {
+        &quot;x&quot;: 457,
+        &quot;y&quot;: 472
+      }
+    },
+    {
+      &quot;id&quot;: 281,
+      &quot;location&quot;: {
+        &quot;x&quot;: 507,
+        &quot;y&quot;: 530
+      }
+    },
+    {
+      &quot;id&quot;: 280,
+      &quot;location&quot;: {
+        &quot;x&quot;: 543,
+        &quot;y&quot;: 538
+      }
+    },
+    {
+      &quot;id&quot;: 279,
+      &quot;location&quot;: {
+        &quot;x&quot;: 576,
+        &quot;y&quot;: 534
+      }
+    },
+    {
+      &quot;id&quot;: 278,
+      &quot;location&quot;: {
+        &quot;x&quot;: 604,
+        &quot;y&quot;: 530
+      }
+    },
+    {
+      &quot;id&quot;: 277,
+      &quot;location&quot;: {
+        &quot;x&quot;: 624,
+        &quot;y&quot;: 531
+      }
+    },
+    {
+      &quot;id&quot;: 276,
+      &quot;location&quot;: {
+        &quot;x&quot;: 647,
+        &quot;y&quot;: 532
+      }
+    },
+    {
+      &quot;id&quot;: 275,
+      &quot;location&quot;: {
+        &quot;x&quot;: 658,
+        &quot;y&quot;: 508
+      }
+    },
+    {
+      &quot;id&quot;: 274,
+      &quot;location&quot;: {
+        &quot;x&quot;: 660,
+        &quot;y&quot;: 487
+      }
+    },
+    {
+      &quot;id&quot;: 273,
+      &quot;location&quot;: {
+        &quot;x&quot;: 661,
+        &quot;y&quot;: 467
+      }
+    },
+    {
+      &quot;id&quot;: 272,
+      &quot;location&quot;: {
+        &quot;x&quot;: 659,
+        &quot;y&quot;: 444
+      }
+    },
+    {
+      &quot;id&quot;: 271,
+      &quot;location&quot;: {
+        &quot;x&quot;: 593,
+        &quot;y&quot;: 413
+      }
+    },
+    {
+      &quot;id&quot;: 270,
+      &quot;location&quot;: {
+        &quot;x&quot;: 529,
+        &quot;y&quot;: 402
+      }
+    },
+    {
+      &quot;id&quot;: 269,
+      &quot;location&quot;: {
+        &quot;x&quot;: 546,
+        &quot;y&quot;: 450
+      }
+    },
+    {
+      &quot;id&quot;: 268,
+      &quot;location&quot;: {
+        &quot;x&quot;: 557,
+        &quot;y&quot;: 512
+      }
+    },
+    {
+      &quot;id&quot;: 267,
+      &quot;location&quot;: {
+        &quot;x&quot;: 580,
+        &quot;y&quot;: 509
+      }
+    },
+    {
+      &quot;id&quot;: 266,
+      &quot;location&quot;: {
+        &quot;x&quot;: 600,
+        &quot;y&quot;: 508
+      }
+    },
+    {
+      &quot;id&quot;: 265,
+      &quot;location&quot;: {
+        &quot;x&quot;: 623,
+        &quot;y&quot;: 506
+      }
+    },
+    {
+      &quot;id&quot;: 264,
+      &quot;location&quot;: {
+        &quot;x&quot;: 636,
+        &quot;y&quot;: 490
+      }
+    },
+    {
+      &quot;id&quot;: 263,
+      &quot;location&quot;: {
+        &quot;x&quot;: 638,
+        &quot;y&quot;: 466
+      }
+    },
+    {
+      &quot;id&quot;: 197,
+      &quot;location&quot;: {
+        &quot;x&quot;: 530,
+        &quot;y&quot;: 291
+      }
+    },
+    {
+      &quot;id&quot;: 198,
+      &quot;location&quot;: {
+        &quot;x&quot;: 608,
+        &quot;y&quot;: 293
+      }
+    },
+    {
+      &quot;id&quot;: 194,
+      &quot;location&quot;: {
+        &quot;x&quot;: 501,
+        &quot;y&quot;: 192
+      }
+    },
+    {
+      &quot;id&quot;: 200,
+      &quot;location&quot;: {
+        &quot;x&quot;: 592,
+        &quot;y&quot;: 158
+      }
+    },
+    {
+      &quot;id&quot;: 202,
+      &quot;location&quot;: {
+        &quot;x&quot;: 670,
+        &quot;y&quot;: 71
+      }
+    },
+    {
+      &quot;id&quot;: 150,
+      &quot;location&quot;: {
+        &quot;x&quot;: 592,
+        &quot;y&quot;: 178
+      }
+    },
+    {
+      &quot;id&quot;: 149,
+      &quot;location&quot;: {
+        &quot;x&quot;: 610,
+        &quot;y&quot;: 176
+      }
+    },
+    {
+      &quot;id&quot;: 148,
+      &quot;location&quot;: {
+        &quot;x&quot;: 625,
+        &quot;y&quot;: 176
+      }
+    },
+    {
+      &quot;id&quot;: 147,
+      &quot;location&quot;: {
+        &quot;x&quot;: 644,
+        &quot;y&quot;: 179
+      }
+    },
+    {
+      &quot;id&quot;: 146,
+      &quot;location&quot;: {
+        &quot;x&quot;: 663,
+        &quot;y&quot;: 156
+      }
+    },
+    {
+      &quot;id&quot;: 145,
+      &quot;location&quot;: {
+        &quot;x&quot;: 661,
+        &quot;y&quot;: 136
+      }
+    },
+    {
+      &quot;id&quot;: 144,
+      &quot;location&quot;: {
+        &quot;x&quot;: 662,
+        &quot;y&quot;: 113
+      }
+    },
+    {
+      &quot;id&quot;: 143,
+      &quot;location&quot;: {
+        &quot;x&quot;: 662,
+        &quot;y&quot;: 89
+      }
+    },
+    {
+      &quot;id&quot;: 260,
+      &quot;location&quot;: {
+        &quot;x&quot;: 681,
+        &quot;y&quot;: 292
+      }
+    },
+    {
+      &quot;id&quot;: 203,
+      &quot;location&quot;: {
+        &quot;x&quot;: 704,
+        &quot;y&quot;: 81
+      }
+    },
+    {
+      &quot;id&quot;: 204,
+      &quot;location&quot;: {
+        &quot;x&quot;: 742,
+        &quot;y&quot;: 60
+      }
+    },
+    {
+      &quot;id&quot;: 205,
+      &quot;location&quot;: {
+        &quot;x&quot;: 782,
+        &quot;y&quot;: 82
+      }
+    },
+    {
+      &quot;id&quot;: 206,
+      &quot;location&quot;: {
+        &quot;x&quot;: 822,
+        &quot;y&quot;: 46
+      }
+    },
+    {
+      &quot;id&quot;: 207,
+      &quot;location&quot;: {
+        &quot;x&quot;: 868,
+        &quot;y&quot;: 48
+      }
+    },
+    {
+      &quot;id&quot;: 208,
+      &quot;location&quot;: {
+        &quot;x&quot;: 897,
+        &quot;y&quot;: 41
+      }
+    },
+    {
+      &quot;id&quot;: 209,
+      &quot;location&quot;: {
+        &quot;x&quot;: 916,
+        &quot;y&quot;: 42
+      }
+    },
+    {
+      &quot;id&quot;: 210,
+      &quot;location&quot;: {
+        &quot;x&quot;: 938,
+        &quot;y&quot;: 44
+      }
+    },
+    {
+      &quot;id&quot;: 211,
+      &quot;location&quot;: {
+        &quot;x&quot;: 956,
+        &quot;y&quot;: 43
+      }
+    },
+    {
+      &quot;id&quot;: 212,
+      &quot;location&quot;: {
+        &quot;x&quot;: 975,
+        &quot;y&quot;: 43
+      }
+    },
+    {
+      &quot;id&quot;: 213,
+      &quot;location&quot;: {
+        &quot;x&quot;: 996,
+        &quot;y&quot;: 48
+      }
+    },
+    {
+      &quot;id&quot;: 214,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1042,
+        &quot;y&quot;: 46
+      }
+    },
+    {
+      &quot;id&quot;: 215,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1092,
+        &quot;y&quot;: 47
+      }
+    },
+    {
+      &quot;id&quot;: 216,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1115,
+        &quot;y&quot;: 59
+      }
+    },
+    {
+      &quot;id&quot;: 217,
+      &quot;location&quot;: {
+        &quot;x&quot;: 909,
+        &quot;y&quot;: 74
+      }
+    },
+    {
+      &quot;id&quot;: 218,
+      &quot;location&quot;: {
+        &quot;x&quot;: 943,
+        &quot;y&quot;: 73
+      }
+    },
+    {
+      &quot;id&quot;: 219,
+      &quot;location&quot;: {
+        &quot;x&quot;: 971,
+        &quot;y&quot;: 72
+      }
+    },
+    {
+      &quot;id&quot;: 220,
+      &quot;location&quot;: {
+        &quot;x&quot;: 993,
+        &quot;y&quot;: 71
+      }
+    },
+    {
+      &quot;id&quot;: 221,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1024,
+        &quot;y&quot;: 72
+      }
+    },
+    {
+      &quot;id&quot;: 222,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1053,
+        &quot;y&quot;: 82
+      }
+    },
+    {
+      &quot;id&quot;: 223,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1075,
+        &quot;y&quot;: 73
+      }
+    },
+    {
+      &quot;id&quot;: 224,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1121,
+        &quot;y&quot;: 98
+      }
+    },
+    {
+      &quot;id&quot;: 226,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1119,
+        &quot;y&quot;: 125
+      }
+    },
+    {
+      &quot;id&quot;: 227,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1121,
+        &quot;y&quot;: 256
+      }
+    },
+    {
+      &quot;id&quot;: 229,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1090,
+        &quot;y&quot;: 168
+      }
+    },
+    {
+      &quot;id&quot;: 230,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1043,
+        &quot;y&quot;: 222
+      }
+    },
+    {
+      &quot;id&quot;: 231,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1010,
+        &quot;y&quot;: 222
+      }
+    },
+    {
+      &quot;id&quot;: 232,
+      &quot;location&quot;: {
+        &quot;x&quot;: 988,
+        &quot;y&quot;: 221
+      }
+    },
+    {
+      &quot;id&quot;: 233,
+      &quot;location&quot;: {
+        &quot;x&quot;: 966,
+        &quot;y&quot;: 225
+      }
+    },
+    {
+      &quot;id&quot;: 234,
+      &quot;location&quot;: {
+        &quot;x&quot;: 947,
+        &quot;y&quot;: 223
+      }
+    },
+    {
+      &quot;id&quot;: 235,
+      &quot;location&quot;: {
+        &quot;x&quot;: 923,
+        &quot;y&quot;: 224
+      }
+    },
+    {
+      &quot;id&quot;: 236,
+      &quot;location&quot;: {
+        &quot;x&quot;: 903,
+        &quot;y&quot;: 225
+      }
+    },
+    {
+      &quot;id&quot;: 237,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1068,
+        &quot;y&quot;: 254
+      }
+    },
+    {
+      &quot;id&quot;: 238,
+      &quot;location&quot;: {
+        &quot;x&quot;: 966,
+        &quot;y&quot;: 253
+      }
+    },
+    {
+      &quot;id&quot;: 239,
+      &quot;location&quot;: {
+        &quot;x&quot;: 884,
+        &quot;y&quot;: 255
+      }
+    },
+    {
+      &quot;id&quot;: 240,
+      &quot;location&quot;: {
+        &quot;x&quot;: 873,
+        &quot;y&quot;: 223
+      }
+    },
+    {
+      &quot;id&quot;: 241,
+      &quot;location&quot;: {
+        &quot;x&quot;: 967,
+        &quot;y&quot;: 288
+      }
+    },
+    {
+      &quot;id&quot;: 242,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1088,
+        &quot;y&quot;: 286
+      }
+    },
+    {
+      &quot;id&quot;: 243,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1092,
+        &quot;y&quot;: 341
+      }
+    },
+    {
+      &quot;id&quot;: 244,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1100,
+        &quot;y&quot;: 434
+      }
+    },
+    {
+      &quot;id&quot;: 245,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1032,
+        &quot;y&quot;: 440
+      }
+    },
+    {
+      &quot;id&quot;: 246,
+      &quot;location&quot;: {
+        &quot;x&quot;: 968,
+        &quot;y&quot;: 441
+      }
+    },
+    {
+      &quot;id&quot;: 247,
+      &quot;location&quot;: {
+        &quot;x&quot;: 904,
+        &quot;y&quot;: 438
+      }
+    },
+    {
+      &quot;id&quot;: 248,
+      &quot;location&quot;: {
+        &quot;x&quot;: 837,
+        &quot;y&quot;: 440
+      }
+    },
+    {
+      &quot;id&quot;: 249,
+      &quot;location&quot;: {
+        &quot;x&quot;: 836,
+        &quot;y&quot;: 352
+      }
+    },
+    {
+      &quot;id&quot;: 250,
+      &quot;location&quot;: {
+        &quot;x&quot;: 832,
+        &quot;y&quot;: 288
+      }
+    },
+    {
+      &quot;id&quot;: 251,
+      &quot;location&quot;: {
+        &quot;x&quot;: 831,
+        &quot;y&quot;: 253
+      }
+    },
+    {
+      &quot;id&quot;: 252,
+      &quot;location&quot;: {
+        &quot;x&quot;: 833,
+        &quot;y&quot;: 223
+      }
+    },
+    {
+      &quot;id&quot;: 253,
+      &quot;location&quot;: {
+        &quot;x&quot;: 853,
+        &quot;y&quot;: 154
+      }
+    },
+    {
+      &quot;id&quot;: 254,
+      &quot;location&quot;: {
+        &quot;x&quot;: 828,
+        &quot;y&quot;: 156
+      }
+    },
+    {
+      &quot;id&quot;: 255,
+      &quot;location&quot;: {
+        &quot;x&quot;: 778,
+        &quot;y&quot;: 177
+      }
+    },
+    {
+      &quot;id&quot;: 256,
+      &quot;location&quot;: {
+        &quot;x&quot;: 778,
+        &quot;y&quot;: 292
+      }
+    },
+    {
+      &quot;id&quot;: 257,
+      &quot;location&quot;: {
+        &quot;x&quot;: 776,
+        &quot;y&quot;: 372
+      }
+    },
+    {
+      &quot;id&quot;: 258,
+      &quot;location&quot;: {
+        &quot;x&quot;: 742,
+        &quot;y&quot;: 444
+      }
+    },
+    {
+      &quot;id&quot;: 259,
+      &quot;location&quot;: {
+        &quot;x&quot;: 703,
+        &quot;y&quot;: 178
+      }
+    },
+    {
+      &quot;id&quot;: 261,
+      &quot;location&quot;: {
+        &quot;x&quot;: 702,
+        &quot;y&quot;: 288
+      }
+    },
+    {
+      &quot;id&quot;: 262,
+      &quot;location&quot;: {
+        &quot;x&quot;: 704,
+        &quot;y&quot;: 372
+      }
+    },
+    {
+      &quot;id&quot;: 255,
+      &quot;location&quot;: {
+        &quot;x&quot;: 1149,
+        &quot;y&quot;: 96
+      }
+    }
+  ],
+  &quot;floor3&quot;: [
+    {
+      &quot;id&quot;: 314,
+      &quot;location&quot;: {
+        &quot;x&quot;: 545,
+        &quot;y&quot;: 503
+      }
+    },
+    {
+      &quot;id&quot;: 315,
+      &quot;location&quot;: {
+        &quot;x&quot;: 517,
+        &quot;y&quot;: 501
+      }
+    },
+    {
+      &quot;id&quot;: 316,
+      &quot;location&quot;: {
+        &quot;x&quot;: 501,
+        &quot;y&quot;: 531
+      }
+    },
+    {
+      &quot;id&quot;: 317,
+      &quot;location&quot;: {
+        &quot;x&quot;: 527,
+        &quot;y&quot;: 531
+      }
+    },
+    {
+      &quot;id&quot;: 318,
+      &quot;location&quot;: {
+        &quot;x&quot;: 550,
+        &quot;y&quot;: 528
+      }
+    },
+    {
+      &quot;id&quot;: 319,
+      &quot;location&quot;: {
+        &quot;x&quot;: 580,
+        &quot;y&quot;: 528
+      }
+    },
+    {
+      &quot;id&quot;: 320,
+      &quot;location&quot;: {
+        &quot;x&quot;: 608,
+        &quot;y&quot;: 522
+      }
+    },
+    {
+      &quot;id&quot;: 321,
+      &quot;location&quot;: {
+        &quot;x&quot;: 632,
+        &quot;y&quot;: 525
+      }
+    },
+    {
+      &quot;id&quot;: 322,
+      &quot;location&quot;: {
+        &quot;x&quot;: 649,
+        &quot;y&quot;: 524
+      }
+    },
+    {
+      &quot;id&quot;: 323,
+      &quot;location&quot;: {
+        &quot;x&quot;: 663,
+        &quot;y&quot;: 500
+      }
+    },
+    {
+      &quot;id&quot;: 324,
+      &quot;location&quot;: {
+        &quot;x&quot;: 662,
+        &quot;y&quot;: 479
+      }
+    },
+    {
+      &quot;id&quot;: 325,
+      &quot;location&quot;: {
+        &quot;x&quot;: 662,
+        &quot;y&quot;: 459
+      }
+    },
+    {
+      &quot;id&quot;: 328,
+      &quot;location&quot;: {
+        &quot;x&quot;: 638,
+        &quot;y&quot;: 460
+      }
+    },
+    {
+      &quot;id&quot;: 329,
+      &quot;location&quot;: {
+        &quot;x&quot;: 638,
+        &quot;y&quot;: 480
+      }
+    },
+    {
+      &quot;id&quot;: 330,
+      &quot;location&quot;: {
+        &quot;x&quot;: 638,
+        &quot;y&quot;: 502
+      }
+    },
+    {
+      &quot;id&quot;: 331,
+      &quot;location&quot;: {
+        &quot;x&quot;: 613,
+        &quot;y&quot;: 504
+      }
+    },
+    {
+      &quot;id&quot;: 332,
+      &quot;location&quot;: {
+        &quot;x&quot;: 580,
+        &quot;y&quot;: 505
+      }
+    },
+    {
+      &quot;id&quot;: 333,
+      &quot;location&quot;: {
+        &quot;x&quot;: 198,
+        &quot;y&quot;: 496
+      }
+    },
+    {
+      &quot;id&quot;: 334,
+      &quot;location&quot;: {
+        &quot;x&quot;: 229,
+        &quot;y&quot;: 506
+      }
+    },
+    {
+      &quot;id&quot;: 335,
+      &quot;location&quot;: {
+        &quot;x&quot;: 251,
+        &quot;y&quot;: 504
+      }
+    },
+    {
+      &quot;id&quot;: 336,
+      &quot;location&quot;: {
+        &quot;x&quot;: 272,
+        &quot;y&quot;: 505
+      }
+    },
+    {
+      &quot;id&quot;: 337,
+      &quot;location&quot;: {
+        &quot;x&quot;: 299,
+        &quot;y&quot;: 505
+      }
+    },
+    {
+      &quot;id&quot;: 338,
+      &quot;location&quot;: {
+        &quot;x&quot;: 327,
+        &quot;y&quot;: 503
+      }
+    },
+    {
+      &quot;id&quot;: 339,
+      &quot;location&quot;: {
+        &quot;x&quot;: 354,
+        &quot;y&quot;: 503
+      }
+    },
+    {
+      &quot;id&quot;: 340,
+      &quot;location&quot;: {
+        &quot;x&quot;: 380,
+        &quot;y&quot;: 505
+      }
+    },
+    {
+      &quot;id&quot;: 341,
+      &quot;location&quot;: {
+        &quot;x&quot;: 402,
+        &quot;y&quot;: 504
+      }
+    },
+    {
+      &quot;id&quot;: 342,
+      &quot;location&quot;: {
+        &quot;x&quot;: 425,
+        &quot;y&quot;: 502
+      }
+    },
+    {
+      &quot;id&quot;: 343,
+      &quot;location&quot;: {
+        &quot;x&quot;: 420,
+        &quot;y&quot;: 533
+      }
+    },
+    {
+      &quot;id&quot;: 344,
+      &quot;location&quot;: {
+        &quot;x&quot;: 384,
+        &quot;y&quot;: 535
+      }
+    },
+    {
+      &quot;id&quot;: 345,
+      &quot;location&quot;: {
+        &quot;x&quot;: 348,
+        &quot;y&quot;: 537
+      }
+    },
+    {
+      &quot;id&quot;: 346,
+      &quot;location&quot;: {
+        &quot;x&quot;: 327,
+        &quot;y&quot;: 537
+      }
+    },
+    {
+      &quot;id&quot;: 347,
+      &quot;location&quot;: {
+        &quot;x&quot;: 302,
+        &quot;y&quot;: 535
+      }
+    },
+    {
+      &quot;id&quot;: 348,
+      &quot;location&quot;: {
+        &quot;x&quot;: 266,
+        &quot;y&quot;: 534
+      }
+    },
+    {
+      &quot;id&quot;: 349,
+      &quot;location&quot;: {
+        &quot;x&quot;: 232,
+        &quot;y&quot;: 536
+      }
+    },
+    {
+      &quot;id&quot;: 350,
+      &quot;location&quot;: {
+        &quot;x&quot;: 190,
+        &quot;y&quot;: 516
+      }
+    },
+    {
+      &quot;id&quot;: 351,
+      &quot;location&quot;: {
+        &quot;x&quot;: 125,
+        &quot;y&quot;: 236
+      }
+    },
+    {
+      &quot;id&quot;: 352,
+      &quot;location&quot;: {
+        &quot;x&quot;: 150,
+        &quot;y&quot;: 282
+      }
+    },
+    {
+      &quot;id&quot;: 353,
+      &quot;location&quot;: {
+        &quot;x&quot;: 153,
+        &quot;y&quot;: 317
+      }
+    },
+    {
+      &quot;id&quot;: 354,
+      &quot;location&quot;: {
+        &quot;x&quot;: 152,
+        &quot;y&quot;: 349
+      }
+    },
+    {
+      &quot;id&quot;: 355,
+      &quot;location&quot;: {
+        &quot;x&quot;: 152,
+        &quot;y&quot;: 375
+      }
+    },
+    {
+      &quot;id&quot;: 356,
+      &quot;location&quot;: {
+        &quot;x&quot;: 154,
+        &quot;y&quot;: 396
+      }
+    },
+    {
+      &quot;id&quot;: 357,
+      &quot;location&quot;: {
+        &quot;x&quot;: 140,
+        &quot;y&quot;: 419
+      }
+    },
+    {
+      &quot;id&quot;: 358,
+      &quot;location&quot;: {
+        &quot;x&quot;: 160,
+        &quot;y&quot;: 457
+      }
+    },
+    {
+      &quot;id&quot;: 359,
+      &quot;location&quot;: {
+        &quot;x&quot;: 123,
+        &quot;y&quot;: 325
+      }
+    },
+    {
+      &quot;id&quot;: 360,
+      &quot;location&quot;: {
+        &quot;x&quot;: 97,
+        &quot;y&quot;: 416
+      }
+    },
+    {
+      &quot;id&quot;: 361,
+      &quot;location&quot;: {
+        &quot;x&quot;: 85,
+        &quot;y&quot;: 393
+      }
+    },
+    {
+      &quot;id&quot;: 362,
+      &quot;location&quot;: {
+        &quot;x&quot;: 87,
+        &quot;y&quot;: 369
+      }
+    },
+    {
+      &quot;id&quot;: 363,
+      &quot;location&quot;: {
+        &quot;x&quot;: 96,
+        &quot;y&quot;: 345
+      }
+    },
+    {
+      &quot;id&quot;: 364,
+      &quot;location&quot;: {
+        &quot;x&quot;: 95,
+        &quot;y&quot;: 317
+      }
+    },
+    {
+      &quot;id&quot;: 365,
+      &quot;location&quot;: {
+        &quot;x&quot;: 92,
+        &quot;y&quot;: 290
+      }
+    },
+    {
+      &quot;id&quot;: 366,
+      &quot;location&quot;: {
+        &quot;x&quot;: 92,
+        &quot;y&quot;: 269
+      }
+    },
+    {
+      &quot;id&quot;: 367,
+      &quot;location&quot;: {
+        &quot;x&quot;: 96,
+        &quot;y&quot;: 248
+      }
+    },
+    {
+      &quot;id&quot;: 368,
+      &quot;location&quot;: {
+        &quot;x&quot;: 82,
+        &quot;y&quot;: 449
+      }
+    },
+    {
+      &quot;id&quot;: 369,
+      &quot;location&quot;: {
+        &quot;x&quot;: 56,
+        &quot;y&quot;: 451
+      }
+    },
+    {
+      &quot;id&quot;: 370,
+      &quot;location&quot;: {
+        &quot;x&quot;: 29,
+        &quot;y&quot;: 458
+      }
+    },
+    {
+      &quot;id&quot;: 375,
+      &quot;location&quot;: {
+        &quot;x&quot;: 124,
+        &quot;y&quot;: 490
+      }
+    },
+    {
+      &quot;id&quot;: 376,
+      &quot;location&quot;: {
+        &quot;x&quot;: 146,
+        &quot;y&quot;: 491
+      }
+    },
+    {
+      &quot;id&quot;: 381,
+      &quot;location&quot;: {
+        &quot;x&quot;: 87,
+        &quot;y&quot;: 196
+      }
+    },
+    {
+      &quot;id&quot;: 382,
+      &quot;location&quot;: {
+        &quot;x&quot;: 86,
+        &quot;y&quot;: 171
+      }
+    },
+    {
+      &quot;id&quot;: 383,
+      &quot;location&quot;: {
+        &quot;x&quot;: 92,
+        &quot;y&quot;: 145
+      }
+    },
+    {
+      &quot;id&quot;: 384,
+      &quot;location&quot;: {
+        &quot;x&quot;: 92,
+        &quot;y&quot;: 119
+      }
+    },
+    {
+      &quot;id&quot;: 385,
+      &quot;location&quot;: {
+        &quot;x&quot;: 68,
+        &quot;y&quot;: 120
+      }
+    },
+    {
+      &quot;id&quot;: 386,
+      &quot;location&quot;: {
+        &quot;x&quot;: 47,
+        &quot;y&quot;: 121
+      }
+    },
+    {
+      &quot;id&quot;: 387,
+      &quot;location&quot;: {
+        &quot;x&quot;: 25,
+        &quot;y&quot;: 120
+      }
+    },
+    {
+      &quot;id&quot;: 388,
+      &quot;location&quot;: {
+        &quot;x&quot;: 28,
+        &quot;y&quot;: 103
+      }
+    },
+    {
+      &quot;id&quot;: 389,
+      &quot;location&quot;: {
+        &quot;x&quot;: 30,
+        &quot;y&quot;: 89
+      }
+    },
+    {
+      &quot;id&quot;: 390,
+      &quot;location&quot;: {
+        &quot;x&quot;: 28,
+        &quot;y&quot;: 71
+      }
+    },
+    {
+      &quot;id&quot;: 391,
+      &quot;location&quot;: {
+        &quot;x&quot;: 28,
+        &quot;y&quot;: 41
+      }
+    },
+    {
+      &quot;id&quot;: 392,
+      &quot;location&quot;: {
+        &quot;x&quot;: 63,
+        &quot;y&quot;: 41
+      }
+    },
+    {
+      &quot;id&quot;: 393,
+      &quot;location&quot;: {
+        &quot;x&quot;: 92,
+        &quot;y&quot;: 40
+      }
+    },
+    {
+      &quot;id&quot;: 394,
+      &quot;location&quot;: {
+        &quot;x&quot;: 110,
+        &quot;y&quot;: 37
+      }
+    },
+    {
+      &quot;id&quot;: 395,
+      &quot;location&quot;: {
+        &quot;x&quot;: 134,
+        &quot;y&quot;: 40
+      }
+    },
+    {
+      &quot;id&quot;: 396,
+      &quot;location&quot;: {
+        &quot;x&quot;: 158,
+        &quot;y&quot;: 42
+      }
+    },
+    {
+      &quot;id&quot;: 397,
+      &quot;location&quot;: {
+        &quot;x&quot;: 149,
+        &quot;y&quot;: 83
+      }
+    },
+    {
+      &quot;id&quot;: 398,
+      &quot;location&quot;: {
+        &quot;x&quot;: 246,
+        &quot;y&quot;: 103
+      }
+    },
+    {
+      &quot;id&quot;: 399,
+      &quot;location&quot;: {
+        &quot;x&quot;: 329,
+        &quot;y&quot;: 131
+      }
+    },
+    {
+      &quot;id&quot;: 400,
+      &quot;location&quot;: {
+        &quot;x&quot;: 397,
+        &quot;y&quot;: 105
+      }
+    }
+  ]
+}</string>
+</dict>
+</plist>
