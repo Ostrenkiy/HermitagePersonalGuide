@@ -30,31 +30,39 @@ class VkViewController: UIViewController{
     private func successHandler(token: String, id: Int){
         print(token)
         print("\(id)")
-        UserAPI().create(user: id, token: token, completion: {
+        UserAPISuccessMock().create(user: id, token: token, completion: {
             [weak self]
             error, userData in
-            guard let userData = userData else {
-                print("pizdec \(error?.localizedDescription)")
+            guard let user = userData else {
+                print("pizdec \(error?.localizedDescription ?? "")")
                 return
             }
-            
-            
+            self?.showMap(user: user)
         })
+    }
+    
+    func showMap(user: UserData) {
+        self.performSegue(withIdentifier: "showMap", sender: user)
     }
     
     private func errorHandler(error:SocialSDKError){
         print(error)
     }
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "showMap" {
+            let dvc = segue.destination as! MapViewController
+            dvc.user = sender as! UserData
+        }
     }
-    */
+    
 
 }
 

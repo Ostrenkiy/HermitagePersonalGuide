@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		089705521F9BAFA800E8F8C2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089705511F9BAFA800E8F8C2 /* MapViewController.swift */; };
 		08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490951F9B575D00C79167 /* AppDelegate.swift */; };
 		08D490981F9B575D00C79167 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490971F9B575D00C79167 /* ViewController.swift */; };
 		08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D490991F9B575D00C79167 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		089705511F9BAFA800E8F8C2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		08D490921F9B575D00C79167 /* HermitagePersonalGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermitagePersonalGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D490951F9B575D00C79167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08D490971F9B575D00C79167 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				08D490BF1F9B9BBA00C79167 /* Map.storyboard */,
+				089705511F9BAFA800E8F8C2 /* MapViewController.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				08D490B61F9B7D7C00C79167 /* Route.swift in Sources */,
 				08D490AC1F9B786500C79167 /* APIConfig.swift in Sources */,
 				08D490AA1F9B76C600C79167 /* UserAPI.swift in Sources */,
+				089705521F9BAFA800E8F8C2 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8UCNQ4GFK3;
 				INFOPLIST_FILE = HermitagePersonalGuide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -496,7 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8UCNQ4GFK3;
 				INFOPLIST_FILE = HermitagePersonalGuide/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

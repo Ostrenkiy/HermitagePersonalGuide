@@ -60,7 +60,7 @@ extension VKSocialSDKProvider : VKSdkDelegate {
             return
         }
         if let token = result.token.accessToken {
-            successHandler?(token, result.user.id.intValue)
+            successHandler?(token, Int(result.token.userId)!)
             return
         }
     }

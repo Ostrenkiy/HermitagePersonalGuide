@@ -11,7 +11,7 @@ import SwiftyJSON
 import Alamofire
 
 class UserAPISuccessMock: UserAPI {
-    override func create(user userId: Int, token: String, completion: @escaping ((Error?, UserData?) -> Void)) -> Request? {
+    @discardableResult override func create(user userId: Int, token: String, completion: @escaping ((Error?, UserData?) -> Void)) -> Request? {
         let responseJSON : JSON = [
             "id": 1,
             "avatarURL": "https://pp.userapi.com/c836333/v836333001/31189/8To0r3d-6iQ.jpg",
