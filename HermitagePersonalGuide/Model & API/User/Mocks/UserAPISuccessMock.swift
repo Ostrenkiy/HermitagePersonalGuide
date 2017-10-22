@@ -15,8 +15,8 @@ class UserAPISuccessMock: UserAPI {
         let responseJSON : JSON = [
             "id": 1,
             "avatarURL": "https://pp.userapi.com/c836333/v836333001/31189/8To0r3d-6iQ.jpg",
-            "interests": "Безопасность, живопись, двач",
-            "name": "Николай Дуров"
+            "interests": "Безопасность, живопись, мемы",
+            "name": "Павел Дуров"
         ]
         completion(nil, UserData(json: responseJSON))
         return nil
