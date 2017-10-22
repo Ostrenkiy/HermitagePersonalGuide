@@ -10,22 +10,31 @@ import UIKit
 import Nuke
 
 class ExhibitListViewController: UIViewController {
-    var exhibits:[Exhibit] = []
+    
+    @IBOutlet weak var tableView: UITableView!
+
+    var pictures: [Picture] = []
+    var hall: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var ex1 = Exhibit()
-        ex1.name = "bkdjslfjlkfdjsdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjf"
-        ex1.text = "dslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjf"
-        exhibits.append(ex1)
+        tableView.reloadData()
+        title = "Зал \(hall)"
+        view.backgroundColor = appBackgroundColor
+        tableView.backgroundColor = appBackgroundColor
+        tableView.estimatedRowHeight = 115
+        tableView.rowHeight = UITableViewAutomaticDimension
+//        var ex1 = Exhibit()
+//        ex1.name = "bkdjslfjlkfdjsdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjf"
+//        ex1.text = "dslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjfdslgjslkdjglksdjglkjsdlkfjsldkjflksdjflkdsjf"
+//        exhibits.append(ex1)
     }
     
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let vc = segue.destination as? ExhibitInfoViewController, let ex = sender as? Exhibit {
-            vc.exhibit = ex
+        if let vc = segue.destination as? ExhibitInfoViewController, let ex = sender as? Picture {
+            vc.picture = ex
         }
      }
- 
 }
 
 extension ExhibitListViewController: UITableViewDelegate {
@@ -33,35 +42,26 @@ extension ExhibitListViewController: UITableViewDelegate {
         return 1
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
-    }
-    
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "showExhibitInfo", sender: exhibits[indexPath.row])
+//        self.performSegue(withIdentifier: "showExhibitInfo", sender: pictures[indexPath.row])
     }
 }
 
 extension ExhibitListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return exhibits.count
+        return pictures.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "exhibitCell", for: indexPath) as! ExhibitTableViewCell
         
-        Nuke.loadImage(with: URL(string: exhibits[indexPath.row].pictureURL)!, into: cell.exhibitImageView)
+        if let url = pictures[indexPath.row].imageURL {
+            Nuke.loadImage(with: url, into: cell.exhibitImageView)
+        }
+
+//        exhibits[indexPath.row].image = cell.exhibitImageView.image
         
-        exhibits[indexPath.row].image = cell.exhibitImageView.image
-        
-        cell.exhibitCellName.text = exhibits[indexPath.row].name
+        cell.exhibitCellName.text = pictures[indexPath.row].title
         return cell
     }
-}
-
-struct Exhibit {
-    var pictureURL = ""
-    var name = ""
-    var text = ""
-    var image:UIImage?
 }

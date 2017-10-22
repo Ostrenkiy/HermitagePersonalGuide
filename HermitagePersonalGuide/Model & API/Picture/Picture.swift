@@ -10,23 +10,25 @@ import Foundation
 import SwiftyJSON
 
 struct Picture {
-    var id: Int
-    var hallID: Int
-    var rubric: String
-    var title: String
-    var author: String
-    var text: String
-    var meta: String
-    var imageURL: URL
+    var id: Int?
+    var hallID: Int?
+    var rubric: String?
+    var title: String?
+    var author: String?
+    var text: String?
+    var meta: String?
+    var imageURL: URL?
     
     init(json: JSON) {
-        id = json["id"].intValue
-        hallID = json["hallID"].intValue
-        rubric = json["rubric"].stringValue
-        title = json["title_ru"].stringValue
-        author = json["author_ru"].stringValue
-        text = json["text_ru"].stringValue
-        meta = json["meta_ru"].stringValue
-        imageURL = URL(string: json["image_URL"].stringValue)!
+        id = json["id"].int
+        hallID = json["hall"].int
+        rubric = json["rubric"].string
+        title = json["title_ru"].string
+        author = json["author_ru"].string
+        text = json["text_ru"].string
+        meta = json["meta_ru"].string
+        if let imageUrlString = json["image_URL"].string {
+            imageURL = URL(string: imageUrlString)
+        }
     }
 }

@@ -10,7 +10,7 @@ import UIKit
 import Nuke
 
 class ExhibitInfoViewController: UIViewController {
-    var exhibit: Exhibit?
+    var picture: Picture?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,15 +36,15 @@ extension ExhibitInfoViewController: UITableViewDataSource {
         switch indexPath.row {
         case 0:
             let cell = tableView.dequeueReusableCell(withIdentifier: "pictureCell", for: indexPath) as! PictureTableViewCell
-            Nuke.loadImage(with: URL(string: (exhibit?.pictureURL)!)!, into: cell.exhibitImageView)
+            Nuke.loadImage(with: (picture?.imageURL!)!, into: cell.exhibitImageView)
             return cell
         case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: "nameCell", for: indexPath)
-            cell.textLabel?.text = self.exhibit?.name
+            cell.textLabel?.text = self.picture?.title
             return cell
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "descriptionCell", for: indexPath)
-            cell.textLabel?.text = self.exhibit?.text
+            cell.textLabel?.text = self.picture?.text
             return cell
         }
     }

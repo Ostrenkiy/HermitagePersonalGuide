@@ -57,8 +57,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHa-DJ-ff7">
-                                <rect key="frame" x="154" y="575" width="67" height="72"/>
-                                <state key="normal" image="vk2"/>
+                                <rect key="frame" x="127.5" y="487" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="QLb-vG-DC8"/>
+                                    <constraint firstAttribute="height" constant="120" id="vUG-n3-o9K"/>
+                                </constraints>
+                                <state key="normal" image="vk_logo"/>
                                 <connections>
                                     <action selector="authorize:" destination="jZE-WY-y5Y" eventType="touchUpInside" id="W1B-1l-CUQ"/>
                                 </connections>
@@ -79,7 +83,7 @@
                             <constraint firstItem="WUb-E8-gVy" firstAttribute="trailing" secondItem="62H-KW-Ywv" secondAttribute="trailing" id="MgR-QL-mv5"/>
                             <constraint firstItem="WUb-E8-gVy" firstAttribute="bottom" secondItem="62H-KW-Ywv" secondAttribute="bottom" id="Uup-uY-Ny3"/>
                             <constraint firstItem="bHa-DJ-ff7" firstAttribute="centerX" secondItem="pJc-LA-vB6" secondAttribute="centerX" id="W1d-YP-Lya"/>
-                            <constraint firstItem="WUb-E8-gVy" firstAttribute="bottom" secondItem="bHa-DJ-ff7" secondAttribute="bottom" constant="20" id="qWl-gW-7Ub"/>
+                            <constraint firstItem="WUb-E8-gVy" firstAttribute="bottom" secondItem="bHa-DJ-ff7" secondAttribute="bottom" constant="60" id="qWl-gW-7Ub"/>
                             <constraint firstItem="3PL-w7-cHp" firstAttribute="top" secondItem="WUb-E8-gVy" secondAttribute="top" id="wYv-aX-h7P"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="WUb-E8-gVy"/>
@@ -96,7 +100,7 @@
     <resources>
         <image name="HermLogo" width="344" height="375"/>
         <image name="back" width="344" height="656"/>
-        <image name="vk2" width="67" height="72"/>
+        <image name="vk_logo" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="RtU-u2-xgk"/>

@@ -10,11 +10,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller-->
+        <!--Pictures Navigation View Controller-->
         <scene sceneID="OrX-Ak-Oyj">
             <objects>
-                <navigationController id="bBa-Si-nVy" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6f4-Hf-uSq">
+                <navigationController storyboardIdentifier="PicturesNavigation" id="bBa-Si-nVy" customClass="PicturesNavigationViewController" customModule="HermitagePersonalGuide" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="6f4-Hf-uSq">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -31,12 +31,13 @@
             <objects>
                 <viewController id="Y6a-bw-q3y" customClass="ExhibitListViewController" customModule="HermitagePersonalGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xwx-br-RCg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="106-56-Pfv">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="106-56-Pfv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="exhibitCell" rowHeight="115" id="bE1-0P-tRY" customClass="ExhibitTableViewCell" customModule="HermitagePersonalGuide" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="115"/>
@@ -46,34 +47,31 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oio-GA-3Iz">
-                                                    <rect key="frame" x="8" y="8" width="98.5" height="98.5"/>
+                                                    <rect key="frame" x="8" y="12.5" width="90" height="90"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="98.5" id="fYd-k0-1os"/>
-                                                        <constraint firstAttribute="height" constant="98.5" id="n1U-Hj-oBz"/>
+                                                        <constraint firstAttribute="width" constant="90" id="fYd-k0-1os"/>
+                                                        <constraint firstAttribute="height" constant="90" id="n1U-Hj-oBz"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEx-Up-Joo">
-                                                    <rect key="frame" x="114" y="8" width="253" height="99"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="249" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEx-Up-Joo">
+                                                    <rect key="frame" x="105.5" y="8" width="261.5" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="oio-GA-3Iz" firstAttribute="top" secondItem="nu7-Xr-Yyo" secondAttribute="topMargin" id="3s8-yY-LhF"/>
+                                                <constraint firstItem="oio-GA-3Iz" firstAttribute="top" relation="greaterThanOrEqual" secondItem="nu7-Xr-Yyo" secondAttribute="topMargin" id="3s8-yY-LhF"/>
                                                 <constraint firstItem="zEx-Up-Joo" firstAttribute="trailing" secondItem="nu7-Xr-Yyo" secondAttribute="trailingMargin" id="5r4-tC-mgI"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="zEx-Up-Joo" secondAttribute="bottom" constant="-0.5" id="5rg-SJ-wWU"/>
-                                                <constraint firstAttribute="bottom" secondItem="zEx-Up-Joo" secondAttribute="bottom" constant="8" id="ART-U9-tE4"/>
-                                                <constraint firstItem="zEx-Up-Joo" firstAttribute="top" secondItem="nu7-Xr-Yyo" secondAttribute="top" constant="8" id="BUy-al-ZYG"/>
+                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="zEx-Up-Joo" secondAttribute="bottom" id="5rg-SJ-wWU"/>
                                                 <constraint firstItem="zEx-Up-Joo" firstAttribute="top" secondItem="nu7-Xr-Yyo" secondAttribute="topMargin" id="EBg-gK-al9"/>
-                                                <constraint firstItem="zEx-Up-Joo" firstAttribute="leading" secondItem="oio-GA-3Iz" secondAttribute="trailing" constant="7" id="NOg-Vw-dHe"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="zEx-Up-Joo" secondAttribute="bottom" id="WeH-OO-10R"/>
+                                                <constraint firstItem="zEx-Up-Joo" firstAttribute="leading" secondItem="oio-GA-3Iz" secondAttribute="trailing" constant="8" id="NOg-Vw-dHe"/>
                                                 <constraint firstItem="oio-GA-3Iz" firstAttribute="centerY" secondItem="nu7-Xr-Yyo" secondAttribute="centerY" id="ZOH-op-S9p"/>
-                                                <constraint firstItem="zEx-Up-Joo" firstAttribute="top" secondItem="nu7-Xr-Yyo" secondAttribute="topMargin" id="cgX-43-8Px"/>
-                                                <constraint firstItem="oio-GA-3Iz" firstAttribute="bottom" secondItem="nu7-Xr-Yyo" secondAttribute="bottomMargin" id="gYj-Ow-2Gg"/>
+                                                <constraint firstItem="oio-GA-3Iz" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="nu7-Xr-Yyo" secondAttribute="bottomMargin" priority="999" id="gYj-Ow-2Gg"/>
                                                 <constraint firstItem="oio-GA-3Iz" firstAttribute="leading" secondItem="nu7-Xr-Yyo" secondAttribute="leadingMargin" id="nJ6-r1-9Cy"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
                                             <outlet property="exhibitCellName" destination="zEx-Up-Joo" id="2g1-no-D6i"/>
                                             <outlet property="exhibitImageView" destination="oio-GA-3Iz" id="xuK-EN-Xkq"/>
@@ -97,6 +95,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="Zav-bZ-PsJ"/>
                     <connections>
+                        <outlet property="tableView" destination="106-56-Pfv" id="2Vz-P9-LaD"/>
                         <segue destination="jZ1-o7-rDu" kind="show" identifier="showExhibitInfo" id="OBG-6O-ca3"/>
                     </connections>
                 </viewController>
@@ -109,11 +108,11 @@
             <objects>
                 <viewController id="jZ1-o7-rDu" customClass="ExhibitInfoViewController" customModule="HermitagePersonalGuide" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZyW-GL-uZ8">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="e8g-7Q-dkM">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="pictureCell" rowHeight="205" id="zG0-Zu-UVp" customClass="PictureTableViewCell" customModule="HermitagePersonalGuide" customModuleProvider="target">

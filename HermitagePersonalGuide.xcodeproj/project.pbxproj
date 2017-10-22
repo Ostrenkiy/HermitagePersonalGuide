@@ -17,6 +17,9 @@
 		089705541F9BBA7400E8F8C2 /* HallCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089705531F9BBA7400E8F8C2 /* HallCoordinates.swift */; };
 		089705561F9BBA9F00E8F8C2 /* HallCoordinates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 089705551F9BBA9F00E8F8C2 /* HallCoordinates.plist */; };
 		089705581F9BC5AA00E8F8C2 /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089705571F9BC5AA00E8F8C2 /* ImageScrollView.swift */; };
+		08C9642B1F9C1DD5007DA460 /* Pictures.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08C9642A1F9C1DD5007DA460 /* Pictures.plist */; };
+		08C9642D1F9C1E14007DA460 /* Pictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C9642C1F9C1E14007DA460 /* Pictures.swift */; };
+		08C9642F1F9C23FB007DA460 /* PicturesNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C9642E1F9C23FB007DA460 /* PicturesNavigationViewController.swift */; };
 		08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D490951F9B575D00C79167 /* AppDelegate.swift */; };
 		08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D490991F9B575D00C79167 /* Main.storyboard */; };
 		08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D4909C1F9B575D00C79167 /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 		089705531F9BBA7400E8F8C2 /* HallCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallCoordinates.swift; sourceTree = "<group>"; };
 		089705551F9BBA9F00E8F8C2 /* HallCoordinates.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HallCoordinates.plist; sourceTree = "<group>"; };
 		089705571F9BC5AA00E8F8C2 /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
+		08C9642A1F9C1DD5007DA460 /* Pictures.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Pictures.plist; sourceTree = "<group>"; };
+		08C9642C1F9C1E14007DA460 /* Pictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pictures.swift; sourceTree = "<group>"; };
+		08C9642E1F9C23FB007DA460 /* PicturesNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesNavigationViewController.swift; sourceTree = "<group>"; };
 		08D490921F9B575D00C79167 /* HermitagePersonalGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermitagePersonalGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D490951F9B575D00C79167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08D4909A1F9B575D00C79167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,6 +100,7 @@
 				0878E1D51F9BF8320019A83A /* PictureTableViewCell.swift */,
 				0878E1D61F9BF8320019A83A /* ExhibitListViewController.swift */,
 				0878E1D71F9BF8320019A83A /* ExhibitInfo.storyboard */,
+				08C9642E1F9C23FB007DA460 /* PicturesNavigationViewController.swift */,
 			);
 			path = ExhibitInfo;
 			sourceTree = "<group>";
@@ -197,7 +204,9 @@
 		08D490C51F9BA74500C79167 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
+				08C9642A1F9C1DD5007DA460 /* Pictures.plist */,
 				08D490C61F9BA75800C79167 /* Picture.swift */,
+				08C9642C1F9C1E14007DA460 /* Pictures.swift */,
 			);
 			path = Picture;
 			sourceTree = "<group>";
@@ -296,6 +305,7 @@
 				08D4909D1F9B575D00C79167 /* Assets.xcassets in Resources */,
 				08D490C01F9B9BBA00C79167 /* Map.storyboard in Resources */,
 				08D4909B1F9B575D00C79167 /* Main.storyboard in Resources */,
+				08C9642B1F9C1DD5007DA460 /* Pictures.plist in Resources */,
 				550869EB1F9BFB6000A4EB8A /* LogIn.storyboard in Resources */,
 				55D55FD51F9B68E600FF12FC /* VkLogin.storyboard in Resources */,
 				089705561F9BBA9F00E8F8C2 /* HallCoordinates.plist in Resources */,
@@ -378,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0878E1DA1F9BF8330019A83A /* PictureTableViewCell.swift in Sources */,
+				08C9642F1F9C23FB007DA460 /* PicturesNavigationViewController.swift in Sources */,
 				08D490B11F9B7C5400C79167 /* UserData.swift in Sources */,
 				0878E1D91F9BF8330019A83A /* ExhibitInfoViewController.swift in Sources */,
 				55D55FDA1F9B708900FF12FC /* VkViewController.swift in Sources */,
@@ -389,6 +400,7 @@
 				08D490961F9B575D00C79167 /* AppDelegate.swift in Sources */,
 				08D490AE1F9B790B00C79167 /* Alamofire-SwiftyJSON.swift in Sources */,
 				0878E1D81F9BF8330019A83A /* ExhibitTableViewCell.swift in Sources */,
+				08C9642D1F9C1E14007DA460 /* Pictures.swift in Sources */,
 				08D490BA1F9B7F0900C79167 /* UserAPISuccessMock.swift in Sources */,
 				08D490B41F9B7CCD00C79167 /* RouteAPI.swift in Sources */,
 				08D490B61F9B7D7C00C79167 /* Route.swift in Sources */,

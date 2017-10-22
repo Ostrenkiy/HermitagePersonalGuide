@@ -9,6 +9,7 @@
 import UIKit
 import Pulsator
 import Nuke
+import Presentr
 
 enum PointType {
     case picture, nextPicture, current
@@ -57,7 +58,8 @@ class MapViewController: UIViewController {
     
     var user: UserData!
     let halls = HallCoordinates.getHalls()
-
+    let pictures = Pictures.getPictures()
+    
     var currentUserView: UIView?
     
     var currentUserHallID: Int! {
@@ -110,7 +112,44 @@ class MapViewController: UIViewController {
         pulsator.backgroundColor = type.pulseColor
         v.layer.addSublayer(pulsator)
         pulsator.start()
+        
+        let tapG = UITapGestureRecognizer(target: self, action: #selector(MapViewController.didTapPoint(recognizer:)))
+        v.addGestureRecognizer(tapG)
+        
         return v
+    }
+    
+    let popupPresentr: Presentr = {
+        let width = ModalSize.sideMargin(value: 32)
+        let height = ModalSize.custom(size: 300.0)
+        let center = ModalCenterPosition.center
+        let customType = PresentationType.custom(width: width, height: height, center: center)
+        
+        let customPresenter = Presentr(presentationType: customType)
+        customPresenter.transitionType = .coverVerticalFromTop
+        customPresenter.dismissTransitionType = .coverVerticalFromTop
+        customPresenter.roundCorners = true
+        customPresenter.backgroundColor = UIColor.black
+        customPresenter.backgroundOpacity = 0.5
+        return customPresenter
+    }()
+    
+    func instantiateViewController(identifier id: String, storyboardName: String) -> UIViewController {
+        let storyboard = UIStoryboard(name: storyboardName, bundle: nil)
+        return storyboard.instantiateViewController(withIdentifier: id)
+    }
+    
+    @objc func didTapPoint(recognizer: UITapGestureRecognizer) {
+        let hallID = recognizer.view!.tag
+        let hallPictures = Pictures.getPictures(hall: hallID, pictures: pictures)
+        guard !hallPictures.isEmpty else {
+            return
+        }
+        if let vc = instantiateViewController(identifier: "PicturesNavigation", storyboardName: "ExhibitInfo") as? PicturesNavigationViewController{
+            vc.pictures = hallPictures
+            vc.hall = hallID
+            self.customPresentViewController(popupPresentr, viewController: vc, animated: true, completion: nil)
+        }
     }
     
     private func placeHallPoint(hall: Hall, pointView: UIView) {
@@ -134,8 +173,11 @@ class MapViewController: UIViewController {
 //        }
         for (index, hallID) in route.halls.enumerated() {
             if let hall = hallFor(id: hallID) {
-                let pv = getPointView(type: index == 0 ? .nextPicture : .picture)
-                placeHallPoint(hall: hall, pointView: pv)
+                if hall.floor == currentFloor {
+                    let pv = getPointView(type: index == 0 ? .nextPicture : .picture)
+                    pv.tag = hall.id
+                    placeHallPoint(hall: hall, pointView: pv)
+                }
             }
         }
     }
@@ -149,6 +191,7 @@ class MapViewController: UIViewController {
         nameLabel.text = user.name
         interestsLabel.text = "Интересы: \(user.interests)"
         updateFloorImage()
+        nextButton.setRoundedCorners(cornerRadius: 8.0, borderWidth: 1, borderColor: UIColor.white)
         // Do any additional setup after loading the view.
     }
     
@@ -175,6 +218,9 @@ class MapViewController: UIViewController {
     }
     
     @IBAction func nextPressed(_ sender: Any) {
+        guard (route?.halls.count ?? 0) > 0 else {
+            return
+        }
         currentUserHallID = route?.halls.first!
     }
     
@@ -196,6 +242,15 @@ extension UIView {
         self.layer.borderWidth = width
         self.layer.borderColor = color.cgColor
         self.layer.masksToBounds = true
+        self.clipsToBounds = true
+    }
+}
+
+extension UIButton {
+    func setRoundedCorners(cornerRadius radius: CGFloat, borderWidth: CGFloat, borderColor: UIColor ) {
+        self.layer.cornerRadius = radius
+        self.layer.borderWidth = borderWidth
+        self.layer.borderColor = borderColor.cgColor
         self.clipsToBounds = true
     }
 }
