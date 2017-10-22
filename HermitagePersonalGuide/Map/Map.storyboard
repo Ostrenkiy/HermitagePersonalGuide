@@ -40,7 +40,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6f-9e-WAz">
-                                <rect key="frame" x="16" y="619" width="343" height="40"/>
+                                <rect key="frame" x="139" y="619" width="220" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="WKV-WI-Ek4"/>
                                 </constraints>
@@ -51,25 +51,39 @@
                                     <action selector="nextPressed:" destination="MyK-BH-xLU" eventType="touchUpInside" id="s1M-jh-cH7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c8w-Y2-gmh" userLabel="Инфо">
+                                <rect key="frame" x="16" y="619" width="115" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="115" id="iRC-yb-hTO"/>
+                                    <constraint firstAttribute="height" constant="40" id="pZa-cQ-Z5l"/>
+                                </constraints>
+                                <state key="normal" title="Экспонаты">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="picturesPressed:" destination="MyK-BH-xLU" eventType="touchUpInside" id="XK9-oe-2hL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yRM-9W-aKc" firstAttribute="trailing" secondItem="z4N-LF-xm1" secondAttribute="trailing" id="4CN-nw-fwh"/>
+                            <constraint firstItem="r6f-9e-WAz" firstAttribute="leading" secondItem="c8w-Y2-gmh" secondAttribute="trailing" constant="8" id="9Ss-X4-ISx"/>
                             <constraint firstItem="y92-tF-yB7" firstAttribute="leading" secondItem="HAU-PP-Gnd" secondAttribute="trailing" constant="8" id="BUx-qr-UoC"/>
                             <constraint firstItem="z4N-LF-xm1" firstAttribute="trailing" secondItem="0Up-4y-Eib" secondAttribute="trailing" constant="16" id="Cy9-N1-RKq"/>
-                            <constraint firstItem="r6f-9e-WAz" firstAttribute="leading" secondItem="z4N-LF-xm1" secondAttribute="leading" constant="16" id="Dia-VW-mvB"/>
                             <constraint firstItem="HAU-PP-Gnd" firstAttribute="top" secondItem="z4N-LF-xm1" secondAttribute="top" constant="16" id="EgH-jW-DFF"/>
                             <constraint firstItem="z4N-LF-xm1" firstAttribute="trailing" secondItem="y92-tF-yB7" secondAttribute="trailing" constant="16" id="G7d-qi-aMg"/>
                             <constraint firstItem="y92-tF-yB7" firstAttribute="top" secondItem="z4N-LF-xm1" secondAttribute="top" constant="16" id="JmK-UR-eOs"/>
+                            <constraint firstItem="c8w-Y2-gmh" firstAttribute="leading" secondItem="z4N-LF-xm1" secondAttribute="leading" constant="16" id="KJJ-Zs-2Ym"/>
                             <constraint firstItem="r6f-9e-WAz" firstAttribute="top" secondItem="yRM-9W-aKc" secondAttribute="bottom" constant="8" id="LTL-Oh-7rG"/>
                             <constraint firstItem="0Up-4y-Eib" firstAttribute="top" secondItem="y92-tF-yB7" secondAttribute="bottom" constant="14" id="NFd-fD-ZYM"/>
                             <constraint firstItem="0Up-4y-Eib" firstAttribute="leading" secondItem="HAU-PP-Gnd" secondAttribute="trailing" constant="8" id="NU4-P9-g7E"/>
-                            <constraint firstItem="r6f-9e-WAz" firstAttribute="centerX" secondItem="z4N-LF-xm1" secondAttribute="centerX" id="Nwk-Im-P7A"/>
                             <constraint firstItem="HAU-PP-Gnd" firstAttribute="leading" secondItem="z4N-LF-xm1" secondAttribute="leading" constant="16" id="fEe-lr-1Xg"/>
                             <constraint firstItem="yRM-9W-aKc" firstAttribute="top" secondItem="HAU-PP-Gnd" secondAttribute="bottom" constant="8" id="lDg-pD-DIi"/>
                             <constraint firstItem="z4N-LF-xm1" firstAttribute="bottom" secondItem="r6f-9e-WAz" secondAttribute="bottom" constant="8" id="o4T-s9-WXB"/>
                             <constraint firstItem="z4N-LF-xm1" firstAttribute="trailing" secondItem="r6f-9e-WAz" secondAttribute="trailing" constant="16" id="oOo-dW-mgg"/>
                             <constraint firstItem="yRM-9W-aKc" firstAttribute="leading" secondItem="z4N-LF-xm1" secondAttribute="leading" id="pB7-3d-M0v"/>
+                            <constraint firstItem="c8w-Y2-gmh" firstAttribute="centerY" secondItem="r6f-9e-WAz" secondAttribute="centerY" id="rdX-gh-QCa"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="z4N-LF-xm1"/>
                     </view>
@@ -79,6 +93,9 @@
                         <outlet property="mapImageScrollView" destination="yRM-9W-aKc" id="vcw-dN-Lfz"/>
                         <outlet property="nameLabel" destination="y92-tF-yB7" id="zVx-9N-Iah"/>
                         <outlet property="nextButton" destination="r6f-9e-WAz" id="OaT-iF-EAo"/>
+                        <outlet property="nextButtonLeading" destination="9Ss-X4-ISx" id="Hqm-e6-apz"/>
+                        <outlet property="picturesButton" destination="c8w-Y2-gmh" id="olE-vl-mNd"/>
+                        <outlet property="picturesButtonWidth" destination="iRC-yb-hTO" id="ale-yi-PZb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G0J-jN-X2X" userLabel="First Responder" sceneMemberID="firstResponder"/>

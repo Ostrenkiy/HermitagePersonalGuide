@@ -27,7 +27,7 @@ struct Picture {
         author = json["author_ru"].string
         text = json["text_ru"].string
         meta = json["meta_ru"].string
-        if let imageUrlString = json["image_URL"].string {
+        if let imageUrlString = json["image_url"].string {
             imageURL = URL(string: imageUrlString)
         }
     }

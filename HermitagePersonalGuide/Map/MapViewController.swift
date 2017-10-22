@@ -10,7 +10,6 @@ import UIKit
 import Pulsator
 import Nuke
 import Presentr
-
 enum PointType {
     case picture, nextPicture, current
     
@@ -41,6 +40,9 @@ class MapViewController: UIViewController {
     
     var points: [Int: UIView] = [:]
     
+    @IBOutlet weak var picturesButtonWidth: NSLayoutConstraint!
+    @IBOutlet weak var nextButtonLeading: NSLayoutConstraint!
+    
     var route: Route? {
         didSet {
             highlightRoute(route: route!)
@@ -51,6 +53,8 @@ class MapViewController: UIViewController {
     
     @IBOutlet weak var mapImageScrollView: ImageScrollView!
 
+    
+    @IBOutlet weak var picturesButton: UIButton!
     @IBOutlet weak var nextButton: UIButton!
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
@@ -80,8 +84,23 @@ class MapViewController: UIViewController {
                 points[currentUserHallID] = currentUserView
                 points[currentUserHallID]?.tag = currentUserHallID
                 updateRoute()
+                updateButtons()
             }
         }
+    }
+    
+    func updateButtons() {
+        let hallPictures = Pictures.getPictures(hall: currentUserHallID, pictures: pictures)
+        if !hallPictures.isEmpty {
+            picturesButtonWidth.constant = 115
+            nextButtonLeading.constant = 8
+        } else {
+            picturesButtonWidth.constant = 0
+            nextButtonLeading.constant = 0
+        }
+        UIView.animate(withDuration: 0.15, animations: {
+            self.view.layoutSubviews()
+        })
     }
     
     var imageForFloor: [Int: UIImage] = [
@@ -191,6 +210,7 @@ class MapViewController: UIViewController {
         nameLabel.text = user.name
         interestsLabel.text = "Интересы: \(user.interests)"
         updateFloorImage()
+        picturesButton.setRoundedCorners(cornerRadius: 8.0, borderWidth: 1, borderColor: UIColor.white)
         nextButton.setRoundedCorners(cornerRadius: 8.0, borderWidth: 1, borderColor: UIColor.white)
         // Do any additional setup after loading the view.
     }
@@ -224,6 +244,20 @@ class MapViewController: UIViewController {
         currentUserHallID = route?.halls.first!
     }
     
+    @IBAction func picturesPressed(_ sender: Any) {
+        guard let hallID = currentUserHallID else {
+            return
+        }
+        let hallPictures = Pictures.getPictures(hall: hallID, pictures: pictures)
+        guard !hallPictures.isEmpty else {
+            return
+        }
+        if let vc = instantiateViewController(identifier: "PicturesNavigation", storyboardName: "ExhibitInfo") as? PicturesNavigationViewController{
+            vc.pictures = hallPictures
+            vc.hall = hallID
+            self.customPresentViewController(popupPresentr, viewController: vc, animated: true, completion: nil)
+        }
+    }
     /*
     // MARK: - Navigation
 
