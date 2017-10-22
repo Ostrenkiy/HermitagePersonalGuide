@@ -12,4 +12,5 @@ target 'HermitagePersonalGuide' do
   pod 'Presentr'
   pod "Pulsator"
   pod 'FLKAutoLayout'
+  pod 'SVProgressHUD'
 end
