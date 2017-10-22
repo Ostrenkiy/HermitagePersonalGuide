@@ -40,12 +40,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6f-9e-WAz">
-                                <rect key="frame" x="67" y="619" width="240" height="40"/>
+                                <rect key="frame" x="16" y="619" width="343" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="WKV-WI-Ek4"/>
-                                    <constraint firstAttribute="width" constant="240" id="l8r-Df-O7v"/>
                                 </constraints>
-                                <state key="normal" title="Next">
+                                <state key="normal" title="Следующий зал">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -58,6 +57,7 @@
                             <constraint firstItem="yRM-9W-aKc" firstAttribute="trailing" secondItem="z4N-LF-xm1" secondAttribute="trailing" id="4CN-nw-fwh"/>
                             <constraint firstItem="y92-tF-yB7" firstAttribute="leading" secondItem="HAU-PP-Gnd" secondAttribute="trailing" constant="8" id="BUx-qr-UoC"/>
                             <constraint firstItem="z4N-LF-xm1" firstAttribute="trailing" secondItem="0Up-4y-Eib" secondAttribute="trailing" constant="16" id="Cy9-N1-RKq"/>
+                            <constraint firstItem="r6f-9e-WAz" firstAttribute="leading" secondItem="z4N-LF-xm1" secondAttribute="leading" constant="16" id="Dia-VW-mvB"/>
                             <constraint firstItem="HAU-PP-Gnd" firstAttribute="top" secondItem="z4N-LF-xm1" secondAttribute="top" constant="16" id="EgH-jW-DFF"/>
                             <constraint firstItem="z4N-LF-xm1" firstAttribute="trailing" secondItem="y92-tF-yB7" secondAttribute="trailing" constant="16" id="G7d-qi-aMg"/>
                             <constraint firstItem="y92-tF-yB7" firstAttribute="top" secondItem="z4N-LF-xm1" secondAttribute="top" constant="16" id="JmK-UR-eOs"/>
@@ -68,6 +68,7 @@
                             <constraint firstItem="HAU-PP-Gnd" firstAttribute="leading" secondItem="z4N-LF-xm1" secondAttribute="leading" constant="16" id="fEe-lr-1Xg"/>
                             <constraint firstItem="yRM-9W-aKc" firstAttribute="top" secondItem="HAU-PP-Gnd" secondAttribute="bottom" constant="8" id="lDg-pD-DIi"/>
                             <constraint firstItem="z4N-LF-xm1" firstAttribute="bottom" secondItem="r6f-9e-WAz" secondAttribute="bottom" constant="8" id="o4T-s9-WXB"/>
+                            <constraint firstItem="z4N-LF-xm1" firstAttribute="trailing" secondItem="r6f-9e-WAz" secondAttribute="trailing" constant="16" id="oOo-dW-mgg"/>
                             <constraint firstItem="yRM-9W-aKc" firstAttribute="leading" secondItem="z4N-LF-xm1" secondAttribute="leading" id="pB7-3d-M0v"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="z4N-LF-xm1"/>
