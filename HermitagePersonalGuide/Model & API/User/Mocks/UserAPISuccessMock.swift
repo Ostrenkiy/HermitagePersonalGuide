@@ -14,9 +14,9 @@ class UserAPISuccessMock: UserAPI {
     @discardableResult override func create(user userId: Int, token: String, completion: @escaping ((Error?, UserData?) -> Void)) -> Request? {
         let responseJSON : JSON = [
             "id": 1,
-            "avatarURL": "https://pp.userapi.com/c836333/v836333001/31189/8To0r3d-6iQ.jpg",
-            "interests": "Безопасность, живопись, мемы",
-            "name": "Павел Дуров"
+            "avatarURL": "https://pp.userapi.com/c604819/v604819621/42ed2/a7FNRQgFzVw.jpg",
+            "interests": "Программирование, Живопись, Мемы",
+            "name": "Александр Карпов"
         ]
         completion(nil, UserData(json: responseJSON))
         return nil
